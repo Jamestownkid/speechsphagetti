@@ -109,6 +109,8 @@ endif()
 target_compile_options(speech-recorder PRIVATE ${PULSEAUDIO_CFLAGS_OTHER})
 
 # Installation rules
+# Install to /usr instead of /usr/local for better desktop integration
+set(CMAKE_INSTALL_PREFIX "/usr" CACHE PATH "Install prefix" FORCE)
 install(TARGETS speech-recorder DESTINATION bin)
 install(FILES packaging/speech-recorder.desktop DESTINATION share/applications)
 install(FILES resources/icons/app_icon.svg 

@@ -59,13 +59,22 @@ echo "════════════════════════�
 echo "Step 3/4: Installing to system..."
 echo "════════════════════════════════════════════════════════"
 
-sudo make -C build install
+# Install to /usr instead of /usr/local for better desktop integration
+sudo cmake --install build --prefix /usr
 
-# Ensure .desktop file is executable
-sudo chmod +x /usr/share/applications/speech-recorder.desktop 2>/dev/null || true
+# Ensure .desktop file is executable and readable
+sudo chmod 644 /usr/share/applications/speech-recorder.desktop 2>/dev/null || true
 
-# Update desktop database
-sudo update-desktop-database 2>/dev/null || true
+# Make sure icon is in the right place
+sudo mkdir -p /usr/share/icons/hicolor/256x256/apps 2>/dev/null || true
+sudo cp resources/icons/app_icon.svg /usr/share/icons/hicolor/256x256/apps/speech-recorder.svg 2>/dev/null || true
+
+# Update desktop and icon caches
+sudo update-desktop-database /usr/share/applications 2>/dev/null || true
+sudo gtk-update-icon-cache -f /usr/share/icons/hicolor 2>/dev/null || true
+
+echo "✅ Installed to /usr/bin/speech-recorder"
+echo "✅ Desktop entry created"
 
 echo ""
 echo "════════════════════════════════════════════════════════"
