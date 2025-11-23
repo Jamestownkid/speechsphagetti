@@ -6,8 +6,9 @@ Settings::Settings()
     : m_settings(ORG_NAME, APP_NAME) {
     // Initialize default model directory if not set
     if (!m_settings.contains("modelDirectory")) {
-        QString dataDir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-        QString modelDir = QDir(dataDir).filePath("models");
+        // Use a consistent, simple path that matches build.sh
+        QString homeDir = QDir::homePath();
+        QString modelDir = QDir(homeDir).filePath(".local/share/speech-recorder/models");
         m_settings.setValue("modelDirectory", modelDir);
         
         // Create directory if it doesn't exist
