@@ -94,12 +94,12 @@ fi
 # 2. Setup whisper.cpp
 print_info "Setting up whisper.cpp..."
 
-if [ ! -d "external/whisper.cpp" ]; then
+# Check if whisper.cpp directory exists AND has files in it
+if [ ! -d "external/whisper.cpp" ] || [ ! -f "external/whisper.cpp/CMakeLists.txt" ]; then
     print_info "Cloning whisper.cpp..."
+    rm -rf external/whisper.cpp 2>/dev/null || true
     mkdir -p external
-    cd external
-    git clone https://github.com/ggerganov/whisper.cpp.git
-    cd ..
+    git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git external/whisper.cpp
     print_success "whisper.cpp cloned"
 else
     print_success "whisper.cpp already exists"
