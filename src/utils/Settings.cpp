@@ -4,16 +4,50 @@
 
 Settings::Settings() 
     : m_settings(ORG_NAME, APP_NAME) {
-    // Initialize default model directory if not set
-    if (!m_settings.contains("modelDirectory")) {
-        // Use a consistent, simple path that matches build.sh
-        QString homeDir = QDir::homePath();
-        QString modelDir = QDir(homeDir).filePath(".local/share/speech-recorder/models");
-        m_settings.setValue("modelDirectory", modelDir);
-        
-        // Create directory if it doesn't exist
-        QDir().mkpath(modelDir);
+    // Use a consistent, simple path that matches build.sh
+    QString homeDir = QDir::homePath();
+    QString modelDir = QDir(homeDir).filePath(".local/share/speech-recorder/models");
+    
+    // Migrate from old QStandardPaths location if needed
+    if (m_settings.contains("modelDirectory")) {
+        QString oldDir = m_settings.value("modelDirectory").toString();
+        // If old directory contains "SparklyLabz" or "SpeechRecorder", migrate
+        if (oldDir.contains("SparklyLabz") || oldDir.contains("SpeechRecorder")) {
+            // Move models from old to new location
+            QDir oldModelDir(oldDir);
+            if (oldModelDir.exists()) {
+                QDir().mkpath(modelDir);
+                QDir newModelDir(modelDir);
+                
+                // Copy all .bin files
+                for (const QString& filename : oldModelDir.entryList(QStringList() << "*.bin", QDir::Files)) {
+                    QString oldPath = oldModelDir.filePath(filename);
+                    QString newPath = newModelDir.filePath(filename);
+                    if (!QFile::exists(newPath)) {
+                        QFile::copy(oldPath, newPath);
+                    }
+                }
+                
+                // Copy vosk model directories
+                for (const QString& dirname : oldModelDir.entryList(QStringList() << "vosk-*", QDir::Dirs | QDir::NoDotAndDotDot)) {
+                    QString oldPath = oldModelDir.filePath(dirname);
+                    QString newPath = newModelDir.filePath(dirname);
+                    if (!QDir(newPath).exists()) {
+                        QDir().mkpath(newPath);
+                        // Copy directory contents recursively
+                        QDir oldSubDir(oldPath);
+                        for (const QString& file : oldSubDir.entryList(QDir::Files | QDir::NoDotAndDotDot)) {
+                            QFile::copy(oldSubDir.filePath(file), QDir(newPath).filePath(file));
+                        }
+                    }
+                }
+            }
+        }
     }
+    
+    // Always set to new location
+    m_settings.setValue("modelDirectory", modelDir);
+    QDir().mkpath(modelDir);
 }
 
 // Audio settings
