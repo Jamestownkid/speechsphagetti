@@ -1,0 +1,62 @@
+/* Light Theme for Speech Recorder */
+/* Made by SparklyLabz */
+
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+QWidget {
+    background-color: #f5f5f5;
+    color: #212121;
+    font-family: "Ubuntu", "Segoe UI", sans-serif;
+}
+
+QPushButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+QTextEdit {
+    background-color: white;
+    color: #212121;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 10px;
+    selection-background-color: #2196F3;
+}
+
+QTextEdit:focus {
+    border: 1px solid #2196F3;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #212121;
+}
+
+QProgressBar {
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #212121;
+}
+
+QProgressBar::chunk {
+    background-color: #4CAF50;
+    border-radius: 2px;
+}
+

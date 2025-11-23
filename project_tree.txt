@@ -1,0 +1,2001 @@
+[179M]  .
+├── [8.8M]  build
+│   ├── [ 34K]  CMakeCache.txt
+│   ├── [2.0M]  CMakeFiles
+│   │   ├── [154K]  4.2.0
+│   │   │   ├── [ 950]  CMakeASMCompiler.cmake
+│   │   │   ├── [2.9K]  CMakeCCompiler.cmake
+│   │   │   ├── [6.1K]  CMakeCXXCompiler.cmake
+│   │   │   ├── [ 16K]  CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── [ 16K]  CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── [ 426]  CMakeSystem.cmake
+│   │   │   ├── [4.0K]  CompilerIdASM
+│   │   │   ├── [ 52K]  CompilerIdC
+│   │   │   │   ├── [ 16K]  a.out
+│   │   │   │   ├── [ 28K]  CMakeCCompilerId.c
+│   │   │   │   └── [4.0K]  tmp
+│   │   │   └── [ 53K]  CompilerIdCXX
+│   │   │       ├── [ 16K]  a.out
+│   │   │       ├── [ 29K]  CMakeCXXCompilerId.cpp
+│   │   │       └── [4.0K]  tmp
+│   │   ├── [  85]  cmake.check_cache
+│   │   ├── [273K]  CMakeConfigureLog.yaml
+│   │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │   ├── [ 957]  CMakeRuleHashes.txt
+│   │   ├── [4.0K]  CMakeScratch
+│   │   ├── [ 36K]  FindOpenMP
+│   │   │   ├── [ 16K]  ompver_C.bin
+│   │   │   └── [ 16K]  ompver_CXX.bin
+│   │   ├── [ 606]  InstallScripts.json
+│   │   ├── [ 46K]  Makefile2
+│   │   ├── [ 17K]  Makefile.cmake
+│   │   ├── [4.0K]  pkgRedirects
+│   │   ├── [   3]  progress.marks
+│   │   ├── [214K]  speech-recorder_autogen.dir
+│   │   │   ├── [ 16K]  AutogenInfo.json
+│   │   │   ├── [ 138]  AutogenUsed.txt
+│   │   │   ├── [1.7K]  AutoRcc_resources_3YJK5W5UP7_Info.json
+│   │   │   ├── [   0]  AutoRcc_resources_3YJK5W5UP7_Lock.lock
+│   │   │   ├── [  69]  AutoRcc_resources_3YJK5W5UP7_Used.txt
+│   │   │   ├── [3.6K]  build.make
+│   │   │   ├── [ 315]  cmake_clean.cmake
+│   │   │   ├── [ 29K]  compiler_depend.internal
+│   │   │   ├── [ 61K]  compiler_depend.make
+│   │   │   ├── [ 127]  compiler_depend.ts
+│   │   │   ├── [ 666]  DependInfo.cmake
+│   │   │   ├── [ 97K]  ParseCache.txt
+│   │   │   └── [  23]  progress.make
+│   │   ├── [8.0K]  speech-recorder_autogen_timestamp_deps.dir
+│   │   │   ├── [3.0K]  build.make
+│   │   │   ├── [ 182]  cmake_clean.cmake
+│   │   │   ├── [ 148]  compiler_depend.make
+│   │   │   ├── [ 142]  compiler_depend.ts
+│   │   │   ├── [ 585]  DependInfo.cmake
+│   │   │   └── [   1]  progress.make
+│   │   ├── [1.3M]  speech-recorder.dir
+│   │   │   ├── [ 33K]  build.make
+│   │   │   ├── [2.3K]  cmake_clean.cmake
+│   │   │   ├── [244K]  compiler_depend.internal
+│   │   │   ├── [299K]  compiler_depend.make
+│   │   │   ├── [ 122]  compiler_depend.ts
+│   │   │   ├── [3.5K]  DependInfo.cmake
+│   │   │   ├── [  99]  depend.make
+│   │   │   ├── [1.1K]  flags.make
+│   │   │   ├── [1.5K]  link.txt
+│   │   │   ├── [ 383]  progress.make
+│   │   │   ├── [ 92K]  speech-recorder_autogen
+│   │   │   │   ├── [ 13K]  3YJK5W5UP7
+│   │   │   │   │   ├── [9.1K]  qrc_resources.cpp.o
+│   │   │   │   │   └── [ 217]  qrc_resources.cpp.o.d
+│   │   │   │   ├── [ 54K]  mocs_compilation.cpp.o
+│   │   │   │   └── [ 21K]  mocs_compilation.cpp.o.d
+│   │   │   └── [644K]  src
+│   │   │       ├── [ 13K]  AudioRecorder.cpp.o
+│   │   │       ├── [ 18K]  AudioRecorder.cpp.o.d
+│   │   │       ├── [248K]  gui
+│   │   │       │   ├── [ 80K]  ModelManager.cpp.o
+│   │   │       │   ├── [ 21K]  ModelManager.cpp.o.d
+│   │   │       │   ├── [ 55K]  ModelSelector.cpp.o
+│   │   │       │   ├── [ 17K]  ModelSelector.cpp.o.d
+│   │   │       │   ├── [ 52K]  SettingsDialog.cpp.o
+│   │   │       │   └── [ 19K]  SettingsDialog.cpp.o.d
+│   │   │       ├── [9.3K]  main.cpp.o
+│   │   │       ├── [ 17K]  main.cpp.o.d
+│   │   │       ├── [ 93K]  MainWindow.cpp.o
+│   │   │       ├── [ 23K]  MainWindow.cpp.o.d
+│   │   │       ├── [ 25K]  transcription
+│   │   │       │   ├── [6.2K]  VoskEngine.cpp.o
+│   │   │       │   └── [ 14K]  VoskEngine.cpp.o.d
+│   │   │       ├── [7.6K]  TranscriptionWorker.cpp.o
+│   │   │       ├── [ 15K]  TranscriptionWorker.cpp.o.d
+│   │   │       ├── [138K]  utils
+│   │   │       │   ├── [ 38K]  ErrorHandler.cpp.o
+│   │   │       │   ├── [ 17K]  ErrorHandler.cpp.o.d
+│   │   │       │   ├── [ 21K]  FileExporter.cpp.o
+│   │   │       │   ├── [ 16K]  FileExporter.cpp.o.d
+│   │   │       │   ├── [ 29K]  Settings.cpp.o
+│   │   │       │   └── [ 14K]  Settings.cpp.o.d
+│   │   │       ├── [ 20K]  WhisperTranscriber.cpp.o
+│   │   │       └── [ 15K]  WhisperTranscriber.cpp.o.d
+│   │   └── [4.9K]  TargetDirectories.txt
+│   ├── [3.9K]  cmake_install.cmake
+│   ├── [ 31K]  compile_commands.json
+│   ├── [6.2M]  external
+│   │   └── [6.2M]  whisper.cpp
+│   │       ├── [4.6K]  CMakeFiles
+│   │       │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │       │   └── [   3]  progress.marks
+│   │       ├── [4.1K]  cmake_install.cmake
+│   │       ├── [4.6M]  ggml
+│   │       │   ├── [4.6K]  CMakeFiles
+│   │       │   │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │       │   │   └── [   3]  progress.marks
+│   │       │   ├── [6.3K]  cmake_install.cmake
+│   │       │   ├── [ 11K]  ggml-config.cmake
+│   │       │   ├── [2.7K]  ggml-version.cmake
+│   │       │   ├── [6.4K]  Makefile
+│   │       │   └── [4.6M]  src
+│   │       │       ├── [3.0M]  CMakeFiles
+│   │       │       │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │       │       │   ├── [ 16K]  ggml_autogen.dir
+│   │       │       │   │   ├── [3.9K]  AutogenInfo.json
+│   │       │       │   │   ├── [ 138]  AutogenUsed.txt
+│   │       │       │   │   ├── [4.2K]  build.make
+│   │       │       │   │   ├── [ 271]  cmake_clean.cmake
+│   │       │       │   │   ├── [1.1K]  compiler_depend.internal
+│   │       │       │   │   ├── [1.9K]  compiler_depend.make
+│   │       │       │   │   ├── [ 116]  compiler_depend.ts
+│   │       │       │   │   ├── [ 704]  DependInfo.cmake
+│   │       │       │   │   ├── [ 140]  ParseCache.txt
+│   │       │       │   │   └── [  23]  progress.make
+│   │       │       │   ├── [8.3K]  ggml_autogen_timestamp_deps.dir
+│   │       │       │   │   ├── [3.3K]  build.make
+│   │       │       │   │   ├── [ 171]  cmake_clean.cmake
+│   │       │       │   │   ├── [ 137]  compiler_depend.make
+│   │       │       │   │   ├── [ 131]  compiler_depend.ts
+│   │       │       │   │   ├── [ 585]  DependInfo.cmake
+│   │       │       │   │   └── [   1]  progress.make
+│   │       │       │   ├── [ 23K]  ggml-base_autogen.dir
+│   │       │       │   │   ├── [5.8K]  AutogenInfo.json
+│   │       │       │   │   ├── [ 138]  AutogenUsed.txt
+│   │       │       │   │   ├── [4.3K]  build.make
+│   │       │       │   │   ├── [ 291]  cmake_clean.cmake
+│   │       │       │   │   ├── [2.3K]  compiler_depend.internal
+│   │       │       │   │   ├── [4.4K]  compiler_depend.make
+│   │       │       │   │   ├── [ 121]  compiler_depend.ts
+│   │       │       │   │   ├── [ 714]  DependInfo.cmake
+│   │       │       │   │   ├── [1.3K]  ParseCache.txt
+│   │       │       │   │   └── [  23]  progress.make
+│   │       │       │   ├── [8.4K]  ggml-base_autogen_timestamp_deps.dir
+│   │       │       │   │   ├── [3.4K]  build.make
+│   │       │       │   │   ├── [ 176]  cmake_clean.cmake
+│   │       │       │   │   ├── [ 142]  compiler_depend.make
+│   │       │       │   │   ├── [ 136]  compiler_depend.ts
+│   │       │       │   │   ├── [ 585]  DependInfo.cmake
+│   │       │       │   │   └── [   1]  progress.make
+│   │       │       │   ├── [1.2M]  ggml-base.dir
+│   │       │       │   │   ├── [ 25K]  build.make
+│   │       │       │   │   ├── [1.3K]  cmake_clean.cmake
+│   │       │       │   │   ├── [ 67K]  compiler_depend.internal
+│   │       │       │   │   ├── [ 92K]  compiler_depend.make
+│   │       │       │   │   ├── [ 116]  compiler_depend.ts
+│   │       │       │   │   ├── [3.3K]  DependInfo.cmake
+│   │       │       │   │   ├── [  93]  depend.make
+│   │       │       │   │   ├── [1.4K]  flags.make
+│   │       │       │   │   ├── [ 22K]  ggml-alloc.c.o
+│   │       │       │   │   ├── [5.0K]  ggml-alloc.c.o.d
+│   │       │       │   │   ├── [ 76K]  ggml-backend.cpp.o
+│   │       │       │   │   ├── [8.5K]  ggml-backend.cpp.o.d
+│   │       │       │   │   ├── [5.2K]  ggml-base_autogen
+│   │       │       │   │   │   ├── [ 944]  mocs_compilation.cpp.o
+│   │       │       │   │   │   └── [ 243]  mocs_compilation.cpp.o.d
+│   │       │       │   │   ├── [240K]  ggml.c.o
+│   │       │       │   │   ├── [8.5K]  ggml.c.o.d
+│   │       │       │   │   ├── [3.2K]  ggml.cpp.o
+│   │       │       │   │   ├── [6.9K]  ggml.cpp.o.d
+│   │       │       │   │   ├── [ 55K]  ggml-opt.cpp.o
+│   │       │       │   │   ├── [ 11K]  ggml-opt.cpp.o.d
+│   │       │       │   │   ├── [315K]  ggml-quants.c.o
+│   │       │       │   │   ├── [9.8K]  ggml-quants.c.o.d
+│   │       │       │   │   ├── [1.8K]  ggml-threading.cpp.o
+│   │       │       │   │   ├── [8.0K]  ggml-threading.cpp.o.d
+│   │       │       │   │   ├── [222K]  gguf.cpp.o
+│   │       │       │   │   ├── [9.9K]  gguf.cpp.o.d
+│   │       │       │   │   ├── [ 501]  link.txt
+│   │       │       │   │   └── [ 240]  progress.make
+│   │       │       │   ├── [ 30K]  ggml-cpu_autogen.dir
+│   │       │       │   │   ├── [7.9K]  AutogenInfo.json
+│   │       │       │   │   ├── [ 138]  AutogenUsed.txt
+│   │       │       │   │   ├── [4.3K]  build.make
+│   │       │       │   │   ├── [ 287]  cmake_clean.cmake
+│   │       │       │   │   ├── [3.3K]  compiler_depend.internal
+│   │       │       │   │   ├── [6.6K]  compiler_depend.make
+│   │       │       │   │   ├── [ 120]  compiler_depend.ts
+│   │       │       │   │   ├── [ 712]  DependInfo.cmake
+│   │       │       │   │   ├── [2.4K]  ParseCache.txt
+│   │       │       │   │   └── [  23]  progress.make
+│   │       │       │   ├── [8.4K]  ggml-cpu_autogen_timestamp_deps.dir
+│   │       │       │   │   ├── [3.3K]  build.make
+│   │       │       │   │   ├── [ 175]  cmake_clean.cmake
+│   │       │       │   │   ├── [ 141]  compiler_depend.make
+│   │       │       │   │   ├── [ 135]  compiler_depend.ts
+│   │       │       │   │   ├── [ 585]  DependInfo.cmake
+│   │       │       │   │   └── [   1]  progress.make
+│   │       │       │   ├── [1.6M]  ggml-cpu.dir
+│   │       │       │   │   ├── [ 41K]  build.make
+│   │       │       │   │   ├── [2.0K]  cmake_clean.cmake
+│   │       │       │   │   ├── [168K]  compiler_depend.internal
+│   │       │       │   │   ├── [199K]  compiler_depend.make
+│   │       │       │   │   ├── [ 115]  compiler_depend.ts
+│   │       │       │   │   ├── [5.0K]  DependInfo.cmake
+│   │       │       │   │   ├── [  92]  depend.make
+│   │       │       │   │   ├── [1.8K]  flags.make
+│   │       │       │   │   ├── [1.1M]  ggml-cpu
+│   │       │       │   │   │   ├── [ 38K]  amx
+│   │       │       │   │   │   │   ├── [ 936]  amx.cpp.o
+│   │       │       │   │   │   │   ├── [ 16K]  amx.cpp.o.d
+│   │       │       │   │   │   │   ├── [ 936]  mmq.cpp.o
+│   │       │       │   │   │   │   └── [ 16K]  mmq.cpp.o.d
+│   │       │       │   │   │   ├── [155K]  arch
+│   │       │       │   │   │   │   └── [151K]  x86
+│   │       │       │   │   │   │       ├── [ 69K]  quants.c.o
+│   │       │       │   │   │   │       ├── [ 10K]  quants.c.o.d
+│   │       │       │   │   │   │       ├── [ 56K]  repack.cpp.o
+│   │       │       │   │   │   │       └── [ 13K]  repack.cpp.o.d
+│   │       │       │   │   │   ├── [ 76K]  binary-ops.cpp.o
+│   │       │       │   │   │   ├── [ 12K]  binary-ops.cpp.o.d
+│   │       │       │   │   │   ├── [ 78K]  ggml-cpu.c.o
+│   │       │       │   │   │   ├── [ 15K]  ggml-cpu.c.o.d
+│   │       │       │   │   │   ├── [ 35K]  ggml-cpu.cpp.o
+│   │       │       │   │   │   ├── [ 15K]  ggml-cpu.cpp.o.d
+│   │       │       │   │   │   ├── [ 936]  hbm.cpp.o
+│   │       │       │   │   │   ├── [ 192]  hbm.cpp.o.d
+│   │       │       │   │   │   ├── [305K]  ops.cpp.o
+│   │       │       │   │   │   ├── [ 14K]  ops.cpp.o.d
+│   │       │       │   │   │   ├── [ 72K]  quants.c.o
+│   │       │       │   │   │   ├── [9.9K]  quants.c.o.d
+│   │       │       │   │   │   ├── [166K]  repack.cpp.o
+│   │       │       │   │   │   ├── [ 13K]  repack.cpp.o.d
+│   │       │       │   │   │   ├── [4.7K]  traits.cpp.o
+│   │       │       │   │   │   ├── [ 12K]  traits.cpp.o.d
+│   │       │       │   │   │   ├── [116K]  unary-ops.cpp.o
+│   │       │       │   │   │   ├── [ 12K]  unary-ops.cpp.o.d
+│   │       │       │   │   │   ├── [8.3K]  vec.cpp.o
+│   │       │       │   │   │   └── [ 12K]  vec.cpp.o.d
+│   │       │       │   │   ├── [5.2K]  ggml-cpu_autogen
+│   │       │       │   │   │   ├── [ 944]  mocs_compilation.cpp.o
+│   │       │       │   │   │   └── [ 240]  mocs_compilation.cpp.o.d
+│   │       │       │   │   ├── [1.0K]  link.txt
+│   │       │       │   │   └── [ 383]  progress.make
+│   │       │       │   ├── [134K]  ggml.dir
+│   │       │       │   │   ├── [ 10K]  build.make
+│   │       │       │   │   ├── [ 644]  cmake_clean.cmake
+│   │       │       │   │   ├── [ 14K]  compiler_depend.internal
+│   │       │       │   │   ├── [ 29K]  compiler_depend.make
+│   │       │       │   │   ├── [ 111]  compiler_depend.ts
+│   │       │       │   │   ├── [1.7K]  DependInfo.cmake
+│   │       │       │   │   ├── [  88]  depend.make
+│   │       │       │   │   ├── [ 655]  flags.make
+│   │       │       │   │   ├── [5.1K]  ggml_autogen
+│   │       │       │   │   │   ├── [ 944]  mocs_compilation.cpp.o
+│   │       │       │   │   │   └── [ 228]  mocs_compilation.cpp.o.d
+│   │       │       │   │   ├── [ 55K]  ggml-backend-reg.cpp.o
+│   │       │       │   │   ├── [ 13K]  ggml-backend-reg.cpp.o.d
+│   │       │       │   │   ├── [ 321]  link.txt
+│   │       │       │   │   └── [  85]  progress.make
+│   │       │       │   └── [   3]  progress.marks
+│   │       │       ├── [3.2K]  cmake_install.cmake
+│   │       │       ├── [ 25K]  ggml_autogen
+│   │       │       │   ├── [ 941]  deps
+│   │       │       │   ├── [4.0K]  include
+│   │       │       │   ├── [ 16K]  moc_predefs.h
+│   │       │       │   ├── [ 173]  mocs_compilation.cpp
+│   │       │       │   └── [   0]  timestamp
+│   │       │       ├── [ 26K]  ggml-base_autogen
+│   │       │       │   ├── [2.2K]  deps
+│   │       │       │   ├── [4.0K]  include
+│   │       │       │   ├── [ 16K]  moc_predefs.h
+│   │       │       │   ├── [ 173]  mocs_compilation.cpp
+│   │       │       │   └── [   0]  timestamp
+│   │       │       ├── [ 17K]  ggml-cpu
+│   │       │       │   ├── [4.6K]  CMakeFiles
+│   │       │       │   │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │       │       │   │   └── [   2]  progress.marks
+│   │       │       │   ├── [1.6K]  cmake_install.cmake
+│   │       │       │   └── [6.5K]  Makefile
+│   │       │       ├── [ 27K]  ggml-cpu_autogen
+│   │       │       │   ├── [3.2K]  deps
+│   │       │       │   ├── [4.0K]  include
+│   │       │       │   ├── [ 16K]  moc_predefs.h
+│   │       │       │   ├── [ 173]  mocs_compilation.cpp
+│   │       │       │   └── [   0]  timestamp
+│   │       │       ├── [  17]  libggml-base.so -> libggml-base.so.0
+│   │       │       ├── [  21]  libggml-base.so.0 -> libggml-base.so.0.9.4
+│   │       │       ├── [703K]  libggml-base.so.0.9.4
+│   │       │       ├── [  16]  libggml-cpu.so -> libggml-cpu.so.0
+│   │       │       ├── [  20]  libggml-cpu.so.0 -> libggml-cpu.so.0.9.4
+│   │       │       ├── [777K]  libggml-cpu.so.0.9.4
+│   │       │       ├── [  12]  libggml.so -> libggml.so.0
+│   │       │       ├── [  16]  libggml.so.0 -> libggml.so.0.9.4
+│   │       │       ├── [ 54K]  libggml.so.0.9.4
+│   │       │       └── [ 45K]  Makefile
+│   │       ├── [6.4K]  Makefile
+│   │       ├── [1.5M]  src
+│   │       │   ├── [906K]  CMakeFiles
+│   │       │   │   ├── [ 655]  CMakeDirectoryInformation.cmake
+│   │       │   │   ├── [   3]  progress.marks
+│   │       │   │   ├── [ 14K]  whisper_autogen.dir
+│   │       │   │   │   ├── [3.3K]  AutogenInfo.json
+│   │       │   │   │   ├── [ 138]  AutogenUsed.txt
+│   │       │   │   │   ├── [4.1K]  build.make
+│   │       │   │   │   ├── [ 283]  cmake_clean.cmake
+│   │       │   │   │   ├── [ 523]  compiler_depend.internal
+│   │       │   │   │   ├── [ 824]  compiler_depend.make
+│   │       │   │   │   ├── [ 119]  compiler_depend.ts
+│   │       │   │   │   ├── [ 700]  DependInfo.cmake
+│   │       │   │   │   ├── [ 281]  ParseCache.txt
+│   │       │   │   │   └── [  23]  progress.make
+│   │       │   │   ├── [8.3K]  whisper_autogen_timestamp_deps.dir
+│   │       │   │   │   ├── [3.3K]  build.make
+│   │       │   │   │   ├── [ 174]  cmake_clean.cmake
+│   │       │   │   │   ├── [ 140]  compiler_depend.make
+│   │       │   │   │   ├── [ 134]  compiler_depend.ts
+│   │       │   │   │   ├── [ 585]  DependInfo.cmake
+│   │       │   │   │   └── [   1]  progress.make
+│   │       │   │   └── [879K]  whisper.dir
+│   │       │   │       ├── [9.9K]  build.make
+│   │       │   │       ├── [ 674]  cmake_clean.cmake
+│   │       │   │       ├── [ 15K]  compiler_depend.internal
+│   │       │   │       ├── [ 30K]  compiler_depend.make
+│   │       │   │       ├── [ 114]  compiler_depend.ts
+│   │       │   │       ├── [1.6K]  DependInfo.cmake
+│   │       │   │       ├── [  91]  depend.make
+│   │       │   │       ├── [ 756]  flags.make
+│   │       │   │       ├── [ 373]  link.txt
+│   │       │   │       ├── [  89]  progress.make
+│   │       │   │       ├── [5.1K]  whisper_autogen
+│   │       │   │       │   ├── [ 944]  mocs_compilation.cpp.o
+│   │       │   │       │   └── [ 227]  mocs_compilation.cpp.o.d
+│   │       │   │       ├── [796K]  whisper.cpp.o
+│   │       │   │       └── [ 15K]  whisper.cpp.o.d
+│   │       │   ├── [1.5K]  cmake_install.cmake
+│   │       │   ├── [  15]  libwhisper.so -> libwhisper.so.1
+│   │       │   ├── [  19]  libwhisper.so.1 -> libwhisper.so.1.8.2
+│   │       │   ├── [596K]  libwhisper.so.1.8.2
+│   │       │   ├── [ 11K]  Makefile
+│   │       │   └── [ 24K]  whisper_autogen
+│   │       │       ├── [ 365]  deps
+│   │       │       ├── [4.0K]  include
+│   │       │       ├── [ 16K]  moc_predefs.h
+│   │       │       ├── [ 173]  mocs_compilation.cpp
+│   │       │       └── [   0]  timestamp
+│   │       ├── [2.5K]  whisper-config.cmake
+│   │       ├── [ 250]  whisper.pc
+│   │       └── [2.7K]  whisper-version.cmake
+│   ├── [ 30K]  Makefile
+│   ├── [299K]  speech-recorder
+│   └── [221K]  speech-recorder_autogen
+│       ├── [ 35K]  3YJK5W5UP7
+│       │   └── [ 31K]  qrc_resources.cpp
+│       ├── [ 30K]  deps
+│       ├── [4.0K]  include
+│       ├── [ 16K]  moc_predefs.h
+│       ├── [ 327]  mocs_compilation.cpp
+│       ├── [ 69K]  MXUWEOXILK
+│       │   ├── [5.2K]  moc_ModelManager.cpp
+│       │   ├── [ 18K]  moc_ModelManager.cpp.d
+│       │   ├── [4.5K]  moc_ModelSelector.cpp
+│       │   ├── [ 17K]  moc_ModelSelector.cpp.d
+│       │   ├── [3.6K]  moc_SettingsDialog.cpp
+│       │   └── [ 16K]  moc_SettingsDialog.cpp.d
+│       ├── [   0]  timestamp
+│       └── [ 64K]  UVLADIE3JM
+│           ├── [4.8K]  moc_AudioRecorder.cpp
+│           ├── [ 14K]  moc_AudioRecorder.cpp.d
+│           ├── [7.1K]  moc_MainWindow.cpp
+│           ├── [ 16K]  moc_MainWindow.cpp.d
+│           ├── [5.1K]  moc_TranscriptionWorker.cpp
+│           └── [ 12K]  moc_TranscriptionWorker.cpp.d
+├── [7.6K]  BUILDING.md
+├── [4.9K]  build.sh
+├── [1.6K]  build_windows.bat
+├── [5.9K]  CHANGELOG.md
+├── [3.3K]  CMakeLists.txt
+├── [3.9K]  CONTRIBUTING.md
+├── [3.5K]  DOWNLOAD_INSTRUCTIONS.md
+├── [ 29M]  external
+│   └── [ 29M]  whisper.cpp
+│       ├── [ 21K]  AUTHORS
+│       ├── [1.8M]  bindings
+│       │   ├── [ 656]  CMakeLists.txt
+│       │   ├── [441K]  go
+│       │   │   ├── [ 142]  doc.go
+│       │   │   ├── [ 29K]  examples
+│       │   │   │   ├── [ 12K]  go-model-download
+│       │   │   │   │   ├── [ 684]  context.go
+│       │   │   │   │   └── [7.8K]  main.go
+│       │   │   │   └── [ 13K]  go-whisper
+│       │   │   │       ├── [ 625]  color.go
+│       │   │   │       ├── [4.3K]  flags.go
+│       │   │   │       ├── [ 878]  main.go
+│       │   │   │       └── [3.2K]  process.go
+│       │   │   ├── [ 380]  go.mod
+│       │   │   ├── [1.3K]  go.sum
+│       │   │   ├── [1.0K]  LICENSE
+│       │   │   ├── [2.4K]  Makefile
+│       │   │   ├── [4.5K]  params.go
+│       │   │   ├── [ 29K]  pkg
+│       │   │   │   └── [ 25K]  whisper
+│       │   │   │       ├── [ 799]  consts.go
+│       │   │   │       ├── [9.0K]  context.go
+│       │   │   │       ├── [2.6K]  context_test.go
+│       │   │   │       ├── [  85]  doc.go
+│       │   │   │       ├── [3.7K]  interface.go
+│       │   │   │       ├── [2.2K]  model.go
+│       │   │   │       ├── [2.2K]  model_test.go
+│       │   │   │       └── [ 117]  util_test.go
+│       │   │   ├── [2.8K]  README.md
+│       │   │   ├── [348K]  samples
+│       │   │   │   └── [344K]  jfk.wav
+│       │   │   ├── [ 16K]  whisper.go
+│       │   │   └── [2.7K]  whisper_test.go
+│       │   ├── [223K]  java
+│       │   │   ├── [4.2K]  build.gradle
+│       │   │   ├── [ 68K]  gradle
+│       │   │   │   └── [ 64K]  wrapper
+│       │   │   │       ├── [ 60K]  gradle-wrapper.jar
+│       │   │   │       └── [ 221]  gradle-wrapper.properties
+│       │   │   ├── [ 295]  gradle.properties
+│       │   │   ├── [8.3K]  gradlew
+│       │   │   ├── [2.8K]  gradlew.bat
+│       │   │   ├── [2.8K]  README.md
+│       │   │   ├── [  33]  settings.gradle
+│       │   │   └── [132K]  src
+│       │   │       ├── [ 97K]  main
+│       │   │       │   └── [ 93K]  java
+│       │   │       │       └── [ 89K]  io
+│       │   │       │           └── [ 85K]  github
+│       │   │       │               └── [ 81K]  ggerganov
+│       │   │       │                   └── [ 77K]  whispercpp
+│       │   │       │                       ├── [4.8K]  bean
+│       │   │       │                       │   └── [ 834]  WhisperSegment.java
+│       │   │       │                       ├── [7.6K]  callbacks
+│       │   │       │                       │   ├── [ 486]  GgmlAbortCallback.java
+│       │   │       │                       │   ├── [ 801]  WhisperEncoderBeginCallback.java
+│       │   │       │                       │   ├── [ 879]  WhisperLogitsFilterCallback.java
+│       │   │       │                       │   ├── [ 811]  WhisperNewSegmentCallback.java
+│       │   │       │                       │   └── [ 667]  WhisperProgressCallback.java
+│       │   │       │                       ├── [4.5K]  ggml
+│       │   │       │                       │   ├── [  78]  GgmlTensor.java
+│       │   │       │                       │   └── [ 437]  GgmlType.java
+│       │   │       │                       ├── [8.2K]  model
+│       │   │       │                       │   ├── [ 183]  EModel.java
+│       │   │       │                       │   ├── [1.2K]  WhisperModel.java
+│       │   │       │                       │   ├── [1.6K]  WhisperModelLoader.java
+│       │   │       │                       │   ├── [  81]  WhisperState.java
+│       │   │       │                       │   └── [1.2K]  WhisperTokenData.java
+│       │   │       │                       ├── [ 23K]  params
+│       │   │       │                       │   ├── [ 586]  BeamSearchParams.java
+│       │   │       │                       │   ├── [ 676]  CBool.java
+│       │   │       │                       │   ├── [ 476]  GreedyParams.java
+│       │   │       │                       │   ├── [ 716]  WhisperAhead.java
+│       │   │       │                       │   ├── [1.1K]  WhisperAheads.java
+│       │   │       │                       │   ├── [2.3K]  WhisperContextParams.java
+│       │   │       │                       │   ├── [ 167]  WhisperFilters.java
+│       │   │       │                       │   ├── [ 12K]  WhisperFullParams.java
+│       │   │       │                       │   ├── [ 406]  WhisperHParams.java
+│       │   │       │                       │   └── [ 292]  WhisperSamplingStrategy.java
+│       │   │       │                       ├── [1.0K]  WhisperConstants.java
+│       │   │       │                       ├── [1.1K]  WhisperContext.java
+│       │   │       │                       ├── [7.7K]  WhisperCpp.java
+│       │   │       │                       └── [ 16K]  WhisperCppJnaLibrary.java
+│       │   │       └── [ 31K]  test
+│       │   │           └── [ 27K]  java
+│       │   │               └── [ 23K]  io
+│       │   │                   └── [ 19K]  github
+│       │   │                       └── [ 15K]  ggerganov
+│       │   │                           └── [ 11K]  whispercpp
+│       │   │                               ├── [6.1K]  WhisperCppTest.java
+│       │   │                               └── [ 614]  WhisperJnaLibraryTest.java
+│       │   ├── [953K]  javascript
+│       │   │   ├── [ 991]  CMakeLists.txt
+│       │   │   ├── [3.0K]  emscripten.cpp
+│       │   │   ├── [2.8K]  libwhisper.worker.js
+│       │   │   ├── [ 600]  package.json
+│       │   │   ├── [ 612]  package-tmpl.json
+│       │   │   ├── [2.6K]  README.md
+│       │   │   └── [938K]  whisper.js
+│       │   └── [216K]  ruby
+│       │       ├── [111K]  ext
+│       │       │   ├── [1.6K]  dependencies.rb
+│       │       │   ├── [ 723]  extconf.rb
+│       │       │   ├── [2.2K]  options.rb
+│       │       │   ├── [5.7K]  ruby_whisper.c
+│       │       │   ├── [ 21K]  ruby_whisper_context.c
+│       │       │   ├── [1.2K]  ruby_whisper_error.c
+│       │       │   ├── [1.1K]  ruby_whisper.h
+│       │       │   ├── [6.4K]  ruby_whisper_model.c
+│       │       │   ├── [ 37K]  ruby_whisper_params.c
+│       │       │   ├── [6.4K]  ruby_whisper_segment.c
+│       │       │   ├── [2.7K]  ruby_whisper_transcribe.cpp
+│       │       │   ├── [2.0K]  ruby_whisper_vad_context.c
+│       │       │   ├── [1.5K]  ruby_whisper_vad_context_detect.cpp
+│       │       │   ├── [7.8K]  ruby_whisper_vad_params.c
+│       │       │   ├── [3.8K]  ruby_whisper_vad_segment.c
+│       │       │   ├── [3.0K]  ruby_whisper_vad_segments.c
+│       │       │   └── [4.3K]  sources
+│       │       │       └── [ 266]  CMakeGraphVizOptions.cmake
+│       │       ├── [ 860]  extsources.rb
+│       │       ├── [ 19K]  lib
+│       │       │   └── [ 15K]  whisper
+│       │       │       ├── [ 368]  context.rb
+│       │       │       ├── [9.8K]  model
+│       │       │       │   └── [5.8K]  uri.rb
+│       │       │       └── [1.1K]  segment.rb
+│       │       ├── [2.3K]  Rakefile
+│       │       ├── [9.3K]  README.md
+│       │       ├── [ 20K]  sig
+│       │       │   └── [ 16K]  whisper.rbs
+│       │       ├── [ 47K]  test
+│       │       │   ├── [ 484]  helper.rb
+│       │       │   ├── [5.7K]  jfk_reader
+│       │       │   │   ├── [  46]  extconf.rb
+│       │       │   │   └── [1.7K]  jfk_reader.c
+│       │       │   ├── [5.3K]  test_callback.rb
+│       │       │   ├── [ 451]  test_error.rb
+│       │       │   ├── [3.6K]  test_model.rb
+│       │       │   ├── [1.9K]  test_package.rb
+│       │       │   ├── [7.9K]  test_params.rb
+│       │       │   ├── [4.1K]  test_segment.rb
+│       │       │   ├── [1.2K]  test_vad_context.rb
+│       │       │   ├── [2.5K]  test_vad_params.rb
+│       │       │   ├── [ 486]  test_vad.rb
+│       │       │   ├── [ 309]  test_vad_segment.rb
+│       │       │   ├── [ 257]  test_vad_segments.rb
+│       │       │   └── [9.0K]  test_whisper.rb
+│       │       └── [1.1K]  whispercpp.gemspec
+│       ├── [ 23K]  build-xcframework.sh
+│       ├── [ 16K]  ci
+│       │   ├── [1.7K]  README.md
+│       │   └── [ 11K]  run.sh
+│       ├── [ 938]  close-issue.yml
+│       ├── [ 18K]  cmake
+│       │   ├── [ 555]  arm64-apple-clang.cmake
+│       │   ├── [ 592]  arm64-windows-llvm.cmake
+│       │   ├── [1.7K]  build-info.cmake
+│       │   ├── [ 385]  DefaultTargetOptions.cmake
+│       │   ├── [6.1K]  FindFFmpeg.cmake
+│       │   ├── [ 717]  git-vars.cmake
+│       │   ├── [1.3K]  riscv64-spacemit-linux-gnu-gcc.cmake
+│       │   ├── [1.9K]  whisper-config.cmake.in
+│       │   ├── [ 274]  whisper.pc.in
+│       │   └── [ 139]  x64-windows-llvm.cmake
+│       ├── [9.7K]  CMakeLists.txt
+│       ├── [9.4M]  examples
+│       │   ├── [ 44K]  addon.node
+│       │   │   ├── [ 21K]  addon.cpp
+│       │   │   ├── [1.3K]  CMakeLists.txt
+│       │   │   ├── [1.5K]  index.js
+│       │   │   ├── [ 285]  package.json
+│       │   │   ├── [3.6K]  README.md
+│       │   │   ├── [8.0K]  __test__
+│       │   │   │   └── [4.0K]  whisper.spec.js
+│       │   │   └── [4.4K]  vad-example.js
+│       │   ├── [ 13K]  bench
+│       │   │   ├── [6.7K]  bench.cpp
+│       │   │   ├── [ 205]  CMakeLists.txt
+│       │   │   └── [1.9K]  README.md
+│       │   ├── [ 22K]  bench.wasm
+│       │   │   ├── [1.1K]  CMakeLists.txt
+│       │   │   ├── [2.6K]  emscripten.cpp
+│       │   │   ├── [ 12K]  index-tmpl.html
+│       │   │   └── [1.5K]  README.md
+│       │   ├── [ 69K]  cli
+│       │   │   ├── [ 60K]  cli.cpp
+│       │   │   ├── [ 228]  CMakeLists.txt
+│       │   │   └── [4.4K]  README.md
+│       │   ├── [3.5K]  CMakeLists.txt
+│       │   ├── [5.9K]  coi-serviceworker.js
+│       │   ├── [ 37K]  command
+│       │   │   ├── [ 274]  CMakeLists.txt
+│       │   │   ├── [ 31K]  command.cpp
+│       │   │   ├── [  54]  commands.txt
+│       │   │   └── [1.9K]  README.md
+│       │   ├── [ 33K]  command.wasm
+│       │   │   ├── [1.2K]  CMakeLists.txt
+│       │   │   ├── [ 10K]  emscripten.cpp
+│       │   │   ├── [ 16K]  index-tmpl.html
+│       │   │   └── [1.6K]  README.md
+│       │   ├── [ 23K]  common.cpp
+│       │   ├── [8.4K]  common-ggml.cpp
+│       │   ├── [ 410]  common-ggml.h
+│       │   ├── [9.4K]  common.h
+│       │   ├── [6.4K]  common-sdl.cpp
+│       │   ├── [ 975]  common-sdl.h
+│       │   ├── [5.1K]  common-whisper.cpp
+│       │   ├── [ 919]  common-whisper.h
+│       │   ├── [6.1K]  deprecation-warning
+│       │   │   ├── [ 228]  CMakeLists.txt
+│       │   │   ├── [1.2K]  deprecation-warning.cpp
+│       │   │   └── [ 639]  README.md
+│       │   ├── [9.7K]  ffmpeg-transcode.cpp
+│       │   ├── [1.1K]  generate-karaoke.sh
+│       │   ├── [ 17K]  grammar-parser.cpp
+│       │   ├── [ 895]  grammar-parser.h
+│       │   ├── [6.4K]  helpers.js
+│       │   ├── [887K]  json.hpp
+│       │   ├── [3.0K]  livestream.sh
+│       │   ├── [ 46K]  lsp
+│       │   │   ├── [ 240]  CMakeLists.txt
+│       │   │   ├── [ 21K]  lsp.cpp
+│       │   │   ├── [6.0K]  README.md
+│       │   │   └── [ 16K]  whisper.vim
+│       │   ├── [3.8M]  miniaudio.h
+│       │   ├── [5.9K]  python
+│       │   │   ├── [ 189]  test_whisper_processor.py
+│       │   │   └── [1.7K]  whisper_processor.py
+│       │   ├── [ 12K]  quantize
+│       │   │   ├── [ 174]  CMakeLists.txt
+│       │   │   ├── [8.0K]  quantize.cpp
+│       │   │   └── [  75]  README.md
+│       │   ├── [410K]  server
+│       │   │   ├── [ 912]  bench.js
+│       │   │   ├── [ 369]  CMakeLists.txt
+│       │   │   ├── [345K]  httplib.h
+│       │   │   ├── [6.1K]  README.md
+│       │   │   └── [ 54K]  server.cpp
+│       │   ├── [4.5K]  server.py
+│       │   ├── [188K]  stb_vorbis.c
+│       │   ├── [ 24K]  stream
+│       │   │   ├── [ 272]  CMakeLists.txt
+│       │   │   ├── [1.8K]  README.md
+│       │   │   └── [ 18K]  stream.cpp
+│       │   ├── [ 33K]  stream.wasm
+│       │   │   ├── [1.1K]  CMakeLists.txt
+│       │   │   ├── [6.2K]  emscripten.cpp
+│       │   │   ├── [ 20K]  index-tmpl.html
+│       │   │   └── [1.5K]  README.md
+│       │   ├── [7.1K]  sycl
+│       │   │   ├── [ 694]  build.sh
+│       │   │   ├── [ 340]  CMakeLists.txt
+│       │   │   ├── [ 216]  ls-sycl-device.cpp
+│       │   │   ├── [1.5K]  README.md
+│       │   │   └── [ 442]  run-whisper.sh
+│       │   ├── [2.3M]  talk-llama
+│       │   │   ├── [1.3K]  CMakeLists.txt
+│       │   │   ├── [2.7K]  eleven-labs.py
+│       │   │   ├── [ 18K]  llama-adapter.cpp
+│       │   │   ├── [1.9K]  llama-adapter.h
+│       │   │   ├── [147K]  llama-arch.cpp
+│       │   │   ├── [ 15K]  llama-arch.h
+│       │   │   ├── [ 28K]  llama-batch.cpp
+│       │   │   ├── [6.2K]  llama-batch.h
+│       │   │   ├── [ 37K]  llama-chat.cpp
+│       │   │   ├── [2.0K]  llama-chat.h
+│       │   │   ├── [102K]  llama-context.cpp
+│       │   │   ├── [9.7K]  llama-context.h
+│       │   │   ├── [ 100]  llama-cparams.cpp
+│       │   │   ├── [1.0K]  llama-cparams.h
+│       │   │   ├── [ 14K]  llama.cpp
+│       │   │   ├── [ 44K]  llama-grammar.cpp
+│       │   │   ├── [6.0K]  llama-grammar.h
+│       │   │   ├── [ 68K]  llama-graph.cpp
+│       │   │   ├── [ 28K]  llama-graph.h
+│       │   │   ├── [ 71K]  llama.h
+│       │   │   ├── [5.4K]  llama-hparams.cpp
+│       │   │   ├── [8.8K]  llama-hparams.h
+│       │   │   ├── [5.9K]  llama-impl.cpp
+│       │   │   ├── [1.8K]  llama-impl.h
+│       │   │   ├── [ 380]  llama-io.cpp
+│       │   │   ├── [ 788]  llama-io.h
+│       │   │   ├── [ 67K]  llama-kv-cache.cpp
+│       │   │   ├── [ 12K]  llama-kv-cache.h
+│       │   │   ├── [9.9K]  llama-kv-cache-iswa.cpp
+│       │   │   ├── [4.0K]  llama-kv-cache-iswa.h
+│       │   │   ├── [ 13K]  llama-kv-cells.h
+│       │   │   ├── [1.5K]  llama-memory.cpp
+│       │   │   ├── [4.4K]  llama-memory.h
+│       │   │   ├── [8.9K]  llama-memory-hybrid.cpp
+│       │   │   ├── [4.2K]  llama-memory-hybrid.h
+│       │   │   ├── [ 38K]  llama-memory-recurrent.cpp
+│       │   │   ├── [5.6K]  llama-memory-recurrent.h
+│       │   │   ├── [ 19K]  llama-mmap.cpp
+│       │   │   ├── [1.4K]  llama-mmap.h
+│       │   │   ├── [430K]  llama-model.cpp
+│       │   │   ├── [ 17K]  llama-model.h
+│       │   │   ├── [ 47K]  llama-model-loader.cpp
+│       │   │   ├── [5.8K]  llama-model-loader.h
+│       │   │   ├── [ 14K]  llama-model-saver.cpp
+│       │   │   ├── [1.0K]  llama-model-saver.h
+│       │   │   ├── [ 49K]  llama-quant.cpp
+│       │   │   ├── [  13]  llama-quant.h
+│       │   │   ├── [ 86K]  llama-sampling.cpp
+│       │   │   ├── [ 754]  llama-sampling.h
+│       │   │   ├── [149K]  llama-vocab.cpp
+│       │   │   ├── [6.1K]  llama-vocab.h
+│       │   │   ├── [491K]  models
+│       │   │   │   ├── [6.9K]  afmoe.cpp
+│       │   │   │   ├── [4.2K]  apertus.cpp
+│       │   │   │   ├── [4.3K]  arcee.cpp
+│       │   │   │   ├── [4.2K]  arctic.cpp
+│       │   │   │   ├── [2.9K]  arwkv7.cpp
+│       │   │   │   ├── [3.8K]  baichuan.cpp
+│       │   │   │   ├── [5.0K]  bailingmoe2.cpp
+│       │   │   │   ├── [4.7K]  bailingmoe.cpp
+│       │   │   │   ├── [7.3K]  bert.cpp
+│       │   │   │   ├── [5.2K]  bitnet.cpp
+│       │   │   │   ├── [3.3K]  bloom.cpp
+│       │   │   │   ├── [5.9K]  chameleon.cpp
+│       │   │   │   ├── [4.7K]  chatglm.cpp
+│       │   │   │   ├── [3.7K]  codeshell.cpp
+│       │   │   │   ├── [3.5K]  cogvlm.cpp
+│       │   │   │   ├── [4.2K]  cohere2-iswa.cpp
+│       │   │   │   ├── [4.2K]  command-r.cpp
+│       │   │   │   ├── [3.9K]  dbrx.cpp
+│       │   │   │   ├── [5.0K]  deci.cpp
+│       │   │   │   ├── [ 10K]  deepseek2.cpp
+│       │   │   │   ├── [5.2K]  deepseek.cpp
+│       │   │   │   ├── [4.7K]  dots1.cpp
+│       │   │   │   ├── [3.5K]  dream.cpp
+│       │   │   │   ├── [3.8K]  ernie4-5.cpp
+│       │   │   │   ├── [5.6K]  ernie4-5-moe.cpp
+│       │   │   │   ├── [4.2K]  exaone4.cpp
+│       │   │   │   ├── [3.9K]  exaone.cpp
+│       │   │   │   ├── [3.9K]  falcon.cpp
+│       │   │   │   ├── [3.8K]  falcon-h1.cpp
+│       │   │   │   ├── [4.0K]  gemma2-iswa.cpp
+│       │   │   │   ├── [4.5K]  gemma3-iswa.cpp
+│       │   │   │   ├── [ 18K]  gemma3n-iswa.cpp
+│       │   │   │   ├── [3.5K]  gemma.cpp
+│       │   │   │   ├── [4.1K]  gemma-embedding.cpp
+│       │   │   │   ├── [5.0K]  glm4.cpp
+│       │   │   │   ├── [5.8K]  glm4-moe.cpp
+│       │   │   │   ├── [3.4K]  gpt2.cpp
+│       │   │   │   ├── [4.8K]  gptneox.cpp
+│       │   │   │   ├── [6.6K]  granite.cpp
+│       │   │   │   ├── [6.9K]  granite-hybrid.cpp
+│       │   │   │   ├── [ 14K]  graph-context-mamba.cpp
+│       │   │   │   ├── [5.3K]  grok.cpp
+│       │   │   │   ├── [4.7K]  grovemoe.cpp
+│       │   │   │   ├── [4.6K]  hunyuan-dense.cpp
+│       │   │   │   ├── [5.2K]  hunyuan-moe.cpp
+│       │   │   │   ├── [3.9K]  internlm2.cpp
+│       │   │   │   ├── [3.0K]  jais.cpp
+│       │   │   │   ├── [3.6K]  jamba.cpp
+│       │   │   │   ├── [7.6K]  lfm2.cpp
+│       │   │   │   ├── [3.4K]  llada.cpp
+│       │   │   │   ├── [3.9K]  llada-moe.cpp
+│       │   │   │   ├── [5.5K]  llama.cpp
+│       │   │   │   ├── [6.4K]  llama-iswa.cpp
+│       │   │   │   ├── [1.4K]  mamba.cpp
+│       │   │   │   ├── [7.9K]  minicpm3.cpp
+│       │   │   │   ├── [3.9K]  minimax-m2.cpp
+│       │   │   │   ├── [ 18K]  models.h
+│       │   │   │   ├── [4.4K]  mpt.cpp
+│       │   │   │   ├── [4.1K]  nemotron.cpp
+│       │   │   │   ├── [4.0K]  nemotron-h.cpp
+│       │   │   │   ├── [3.5K]  neo-bert.cpp
+│       │   │   │   ├── [5.0K]  olmo2.cpp
+│       │   │   │   ├── [4.0K]  olmo.cpp
+│       │   │   │   ├── [3.9K]  olmoe.cpp
+│       │   │   │   ├── [4.2K]  openai-moe-iswa.cpp
+│       │   │   │   ├── [4.0K]  openelm.cpp
+│       │   │   │   ├── [4.0K]  orion.cpp
+│       │   │   │   ├── [3.8K]  pangu-embedded.cpp
+│       │   │   │   ├── [4.8K]  phi2.cpp
+│       │   │   │   ├── [5.7K]  phi3.cpp
+│       │   │   │   ├── [ 14K]  plamo2.cpp
+│       │   │   │   ├── [3.4K]  plamo.cpp
+│       │   │   │   ├── [6.6K]  plm.cpp
+│       │   │   │   ├── [3.7K]  qwen2.cpp
+│       │   │   │   ├── [5.1K]  qwen2moe.cpp
+│       │   │   │   ├── [3.8K]  qwen2vl.cpp
+│       │   │   │   ├── [3.7K]  qwen3.cpp
+│       │   │   │   ├── [4.0K]  qwen3moe.cpp
+│       │   │   │   ├── [4.6K]  qwen3vl.cpp
+│       │   │   │   ├── [4.9K]  qwen3vl-moe.cpp
+│       │   │   │   ├── [3.5K]  qwen.cpp
+│       │   │   │   ├── [2.8K]  refact.cpp
+│       │   │   │   ├── [7.8K]  rwkv6-base.cpp
+│       │   │   │   ├── [3.9K]  rwkv6.cpp
+│       │   │   │   ├── [2.8K]  rwkv6qwen2.cpp
+│       │   │   │   ├── [6.7K]  rwkv7-base.cpp
+│       │   │   │   ├── [3.7K]  rwkv7.cpp
+│       │   │   │   ├── [4.1K]  seed-oss.cpp
+│       │   │   │   ├── [4.3K]  smallthinker.cpp
+│       │   │   │   ├── [4.4K]  smollm3.cpp
+│       │   │   │   ├── [4.8K]  stablelm.cpp
+│       │   │   │   ├── [4.0K]  starcoder2.cpp
+│       │   │   │   ├── [3.4K]  starcoder.cpp
+│       │   │   │   ├── [5.8K]  t5-dec.cpp
+│       │   │   │   ├── [3.2K]  t5-enc.cpp
+│       │   │   │   ├── [4.5K]  wavtokenizer-dec.cpp
+│       │   │   │   └── [3.4K]  xverse.cpp
+│       │   │   ├── [5.0K]  prompts
+│       │   │   │   └── [ 978]  talk-alpaca.txt
+│       │   │   ├── [2.9K]  README.md
+│       │   │   ├── [1.5K]  speak
+│       │   │   ├── [  76]  speak.bat
+│       │   │   ├── [ 511]  speak.ps1
+│       │   │   ├── [ 34K]  talk-llama.cpp
+│       │   │   ├── [ 43K]  unicode.cpp
+│       │   │   ├── [164K]  unicode-data.cpp
+│       │   │   ├── [ 630]  unicode-data.h
+│       │   │   └── [3.8K]  unicode.h
+│       │   ├── [2.8K]  twitch.sh
+│       │   ├── [ 14K]  vad-speech-segments
+│       │   │   ├── [ 239]  CMakeLists.txt
+│       │   │   ├── [2.1K]  README.md
+│       │   │   └── [7.8K]  speech.cpp
+│       │   ├── [303K]  wchess
+│       │   │   ├── [ 310]  CMakeLists.txt
+│       │   │   ├── [ 44K]  libwchess
+│       │   │   │   ├── [ 26K]  Chessboard.cpp
+│       │   │   │   ├── [ 925]  Chessboard.h
+│       │   │   │   ├── [ 344]  CMakeLists.txt
+│       │   │   │   ├── [4.3K]  test-chessboard.cpp
+│       │   │   │   ├── [6.5K]  WChess.cpp
+│       │   │   │   └── [1.6K]  WChess.h
+│       │   │   ├── [ 949]  README.md
+│       │   │   ├── [ 15K]  wchess.cmd
+│       │   │   │   ├── [ 225]  CMakeLists.txt
+│       │   │   │   └── [ 11K]  wchess.cmd.cpp
+│       │   │   └── [239K]  wchess.wasm
+│       │   │       ├── [126K]  chessboardjs-1.0.0
+│       │   │       │   ├── [5.7K]  css
+│       │   │       │   │   ├── [ 978]  chessboard-1.0.0.css
+│       │   │       │   │   └── [ 718]  chessboard-1.0.0.min.css
+│       │   │       │   ├── [ 36K]  img
+│       │   │       │   │   └── [ 32K]  chesspieces
+│       │   │       │   │       └── [ 28K]  wikipedia
+│       │   │       │   │           ├── [1.4K]  bB.png
+│       │   │       │   │           ├── [2.9K]  bK.png
+│       │   │       │   │           ├── [1.8K]  bN.png
+│       │   │       │   │           ├── [ 777]  bP.png
+│       │   │       │   │           ├── [2.6K]  bQ.png
+│       │   │       │   │           ├── [ 748]  bR.png
+│       │   │       │   │           ├── [2.3K]  wB.png
+│       │   │       │   │           ├── [2.8K]  wK.png
+│       │   │       │   │           ├── [2.3K]  wN.png
+│       │   │       │   │           ├── [1.5K]  wP.png
+│       │   │       │   │           ├── [3.7K]  wQ.png
+│       │   │       │   │           └── [1.1K]  wR.png
+│       │   │       │   └── [ 80K]  js
+│       │   │       │       ├── [9.4K]  chessboard-1.0.0
+│       │   │       │       │   ├── [1.0K]  CHANGELOG.md
+│       │   │       │       │   ├── [1.0K]  LICENSE.md
+│       │   │       │       │   ├── [ 774]  package.json
+│       │   │       │       │   └── [2.5K]  README.md
+│       │   │       │       ├── [ 53K]  chessboard-1.0.0.js
+│       │   │       │       └── [ 14K]  chessboard-1.0.0.min.js
+│       │   │       ├── [1.5K]  CMakeLists.txt
+│       │   │       ├── [ 19K]  index-tmpl.html
+│       │   │       ├── [ 85K]  jquery-3.7.1.min.js
+│       │   │       └── [4.1K]  wchess.wasm.cpp
+│       │   ├── [269K]  whisper.android
+│       │   │   ├── [129K]  app
+│       │   │   │   ├── [1.9K]  build.gradle
+│       │   │   │   ├── [ 750]  proguard-rules.pro
+│       │   │   │   └── [122K]  src
+│       │   │   │       ├── [ 17K]  androidTest
+│       │   │   │       │   └── [ 13K]  java
+│       │   │   │       │       └── [8.6K]  com
+│       │   │   │       │           └── [4.6K]  whispercppdemo
+│       │   │   │       │               └── [ 663]  ExampleInstrumentedTest.kt
+│       │   │   │       ├── [ 85K]  main
+│       │   │   │       │   ├── [1.1K]  AndroidManifest.xml
+│       │   │   │       │   ├── [ 52K]  java
+│       │   │   │       │   │   └── [ 48K]  com
+│       │   │   │       │   │       └── [ 44K]  whispercppdemo
+│       │   │   │       │   │           ├── [ 694]  MainActivity.kt
+│       │   │   │       │   │           ├── [6.2K]  media
+│       │   │   │       │   │           │   └── [2.2K]  RiffWaveHelper.kt
+│       │   │   │       │   │           ├── [6.6K]  recorder
+│       │   │   │       │   │           │   └── [2.6K]  Recorder.kt
+│       │   │   │       │   │           └── [ 26K]  ui
+│       │   │   │       │   │               ├── [ 15K]  main
+│       │   │   │       │   │               │   ├── [3.5K]  MainScreen.kt
+│       │   │   │       │   │               │   └── [7.2K]  MainScreenViewModel.kt
+│       │   │   │       │   │               └── [7.4K]  theme
+│       │   │   │       │   │                   ├── [ 282]  Color.kt
+│       │   │   │       │   │                   ├── [2.1K]  Theme.kt
+│       │   │   │       │   │                   └── [ 987]  Type.kt
+│       │   │   │       │   └── [ 29K]  res
+│       │   │   │       │       ├── [ 11K]  drawable
+│       │   │   │       │       │   ├── [5.5K]  ic_launcher_background.xml
+│       │   │   │       │       │   └── [1.7K]  ic_launcher_foreground.xml
+│       │   │   │       │       ├── [4.3K]  mipmap-anydpi
+│       │   │   │       │       │   └── [ 272]  ic_launcher.xml
+│       │   │   │       │       ├── [4.2K]  values
+│       │   │   │       │       │   ├── [  76]  strings.xml
+│       │   │   │       │       │   └── [ 156]  themes.xml
+│       │   │   │       │       └── [5.0K]  xml
+│       │   │   │       │           ├── [ 478]  backup_rules.xml
+│       │   │   │       │           └── [ 551]  data_extraction_rules.xml
+│       │   │   │       └── [ 16K]  test
+│       │   │   │           └── [ 12K]  java
+│       │   │   │               └── [8.3K]  com
+│       │   │   │                   └── [4.3K]  whispercppdemo
+│       │   │   │                       └── [ 342]  ExampleUnitTest.kt
+│       │   │   ├── [ 295]  build.gradle
+│       │   │   ├── [ 66K]  gradle
+│       │   │   │   └── [ 62K]  wrapper
+│       │   │   │       ├── [ 58K]  gradle-wrapper.jar
+│       │   │   │       └── [ 230]  gradle-wrapper.properties
+│       │   │   ├── [1.3K]  gradle.properties
+│       │   │   ├── [5.6K]  gradlew
+│       │   │   ├── [2.7K]  gradlew.bat
+│       │   │   ├── [ 59K]  lib
+│       │   │   │   ├── [2.1K]  build.gradle
+│       │   │   │   └── [ 53K]  src
+│       │   │   │       └── [ 49K]  main
+│       │   │   │           ├── [ 121]  AndroidManifest.xml
+│       │   │   │           ├── [ 25K]  java
+│       │   │   │           │   └── [ 21K]  com
+│       │   │   │           │       └── [ 17K]  whispercpp
+│       │   │   │           │           └── [ 13K]  whisper
+│       │   │   │           │               ├── [6.3K]  LibWhisper.kt
+│       │   │   │           │               └── [2.5K]  WhisperCpuConfig.kt
+│       │   │   │           └── [ 20K]  jni
+│       │   │   │               └── [ 16K]  whisper
+│       │   │   │                   ├── [2.9K]  CMakeLists.txt
+│       │   │   │                   └── [8.8K]  jni.c
+│       │   │   ├── [ 973]  README.md
+│       │   │   └── [ 346]  settings.gradle
+│       │   ├── [463K]  whisper.android.java
+│       │   │   ├── [316K]  app
+│       │   │   │   ├── [1.5K]  build.gradle
+│       │   │   │   ├── [ 750]  proguard-rules.pro
+│       │   │   │   └── [310K]  src
+│       │   │   │       ├── [ 29K]  androidTest
+│       │   │   │       │   └── [ 25K]  java
+│       │   │   │       │       └── [ 21K]  com
+│       │   │   │       │           └── [ 17K]  litongjava
+│       │   │   │       │               └── [ 13K]  whisper
+│       │   │   │       │                   └── [8.7K]  android
+│       │   │   │       │                       └── [4.7K]  java
+│       │   │   │       │                           └── [ 766]  ExampleInstrumentedTest.java
+│       │   │   │       ├── [249K]  main
+│       │   │   │       │   ├── [ 732]  AndroidManifest.xml
+│       │   │   │       │   ├── [5.9K]  assets
+│       │   │   │       │   │   └── [1.9K]  logback.xml
+│       │   │   │       │   ├── [ 88K]  java
+│       │   │   │       │   │   └── [ 84K]  com
+│       │   │   │       │   │       ├── [ 56K]  litongjava
+│       │   │   │       │   │       │   └── [ 52K]  whisper
+│       │   │   │       │   │       │       └── [ 48K]  android
+│       │   │   │       │   │       │           └── [ 44K]  java
+│       │   │   │       │   │       │               ├── [4.2K]  app
+│       │   │   │       │   │       │               │   └── [ 251]  App.java
+│       │   │   │       │   │       │               ├── [4.8K]  bean
+│       │   │   │       │   │       │               │   └── [ 829]  WhisperSegment.java
+│       │   │   │       │   │       │               ├── [3.2K]  MainActivity.java
+│       │   │   │       │   │       │               ├── [6.9K]  services
+│       │   │   │       │   │       │               │   └── [2.9K]  WhisperService.java
+│       │   │   │       │   │       │               ├── [5.9K]  single
+│       │   │   │       │   │       │               │   └── [1.9K]  LocalWhisper.java
+│       │   │   │       │   │       │               ├── [5.9K]  task
+│       │   │   │       │   │       │               │   ├── [ 947]  LoadModelTask.java
+│       │   │   │       │   │       │               │   └── [ 980]  TranscriptionTask.java
+│       │   │   │       │   │       │               └── [9.5K]  utils
+│       │   │   │       │   │       │                   ├── [2.6K]  AssetUtils.java
+│       │   │   │       │   │       │                   └── [2.9K]  WaveEncoder.java
+│       │   │   │       │   │       └── [ 24K]  whispercpp
+│       │   │   │       │   │           └── [ 20K]  java
+│       │   │   │       │   │               └── [ 16K]  whisper
+│       │   │   │       │   │                   ├── [3.7K]  CpuInfo.java
+│       │   │   │       │   │                   ├── [4.7K]  WhisperContext.java
+│       │   │   │       │   │                   ├── [ 290]  WhisperCpuConfig.java
+│       │   │   │       │   │                   ├── [2.2K]  WhisperLib.java
+│       │   │   │       │   │                   └── [ 792]  WhisperUtils.java
+│       │   │   │       │   ├── [ 19K]  jni
+│       │   │   │       │   │   └── [ 15K]  whisper
+│       │   │   │       │   │       ├── [2.4K]  CMakeLists.txt
+│       │   │   │       │   │       └── [8.6K]  jni.c
+│       │   │   │       │   └── [131K]  res
+│       │   │   │       │       ├── [8.9K]  drawable
+│       │   │   │       │       │   └── [4.9K]  ic_launcher_background.xml
+│       │   │   │       │       ├── [5.5K]  drawable-v24
+│       │   │   │       │       │   └── [1.5K]  ic_launcher_foreground.xml
+│       │   │   │       │       ├── [5.7K]  layout
+│       │   │   │       │       │   └── [1.7K]  activity_main.xml
+│       │   │   │       │       ├── [4.5K]  mipmap-anydpi-v26
+│       │   │   │       │       │   ├── [ 268]  ic_launcher_round.xml
+│       │   │   │       │       │   └── [ 268]  ic_launcher.xml
+│       │   │   │       │       ├── [ 13K]  mipmap-hdpi
+│       │   │   │       │       │   ├── [3.5K]  ic_launcher.png
+│       │   │   │       │       │   └── [5.2K]  ic_launcher_round.png
+│       │   │   │       │       ├── [9.9K]  mipmap-mdpi
+│       │   │   │       │       │   ├── [2.6K]  ic_launcher.png
+│       │   │   │       │       │   └── [3.3K]  ic_launcher_round.png
+│       │   │   │       │       ├── [ 16K]  mipmap-xhdpi
+│       │   │   │       │       │   ├── [4.8K]  ic_launcher.png
+│       │   │   │       │       │   └── [7.3K]  ic_launcher_round.png
+│       │   │   │       │       ├── [ 23K]  mipmap-xxhdpi
+│       │   │   │       │       │   ├── [7.7K]  ic_launcher.png
+│       │   │   │       │       │   └── [ 12K]  ic_launcher_round.png
+│       │   │   │       │       ├── [ 31K]  mipmap-xxxhdpi
+│       │   │   │       │       │   ├── [ 10K]  ic_launcher.png
+│       │   │   │       │       │   └── [ 16K]  ic_launcher_round.png
+│       │   │   │       │       ├── [5.2K]  values
+│       │   │   │       │       │   ├── [ 364]  colors.xml
+│       │   │   │       │       │   ├── [  80]  strings.xml
+│       │   │   │       │       │   └── [ 790]  themes.xml
+│       │   │   │       │       └── [4.8K]  values-night
+│       │   │   │       │           └── [ 790]  themes.xml
+│       │   │   │       └── [ 28K]  test
+│       │   │   │           └── [ 24K]  java
+│       │   │   │               └── [ 20K]  com
+│       │   │   │                   └── [ 16K]  litongjava
+│       │   │   │                       └── [ 12K]  whisper
+│       │   │   │                           └── [8.4K]  android
+│       │   │   │                               └── [4.4K]  java
+│       │   │   │                                   └── [ 386]  ExampleUnitTest.java
+│       │   │   ├── [ 569]  build.gradle
+│       │   │   ├── [ 61K]  gradle
+│       │   │   │   └── [ 57K]  wrapper
+│       │   │   │       ├── [ 53K]  gradle-wrapper.jar
+│       │   │   │       └── [ 230]  gradle-wrapper.properties
+│       │   │   ├── [1.1K]  gradle.properties
+│       │   │   ├── [5.2K]  gradlew
+│       │   │   ├── [2.1K]  gradlew.bat
+│       │   │   ├── [ 71K]  README_files
+│       │   │   │   └── [ 67K]  1.jpg
+│       │   │   ├── [1.2K]  README.md
+│       │   │   └── [  56]  settings.gradle
+│       │   ├── [9.7K]  whisper.nvim
+│       │   │   ├── [3.7K]  README.md
+│       │   │   └── [2.0K]  whisper.nvim
+│       │   ├── [ 84K]  whisper.objc
+│       │   │   ├── [1.7K]  README.md
+│       │   │   ├── [ 46K]  whisper.objc
+│       │   │   │   ├── [ 183]  AppDelegate.h
+│       │   │   │   ├── [1.3K]  AppDelegate.m
+│       │   │   │   ├── [ 12K]  Assets.xcassets
+│       │   │   │   │   ├── [4.1K]  AccentColor.colorset
+│       │   │   │   │   │   └── [ 123]  Contents.json
+│       │   │   │   │   ├── [4.2K]  AppIcon.appiconset
+│       │   │   │   │   │   └── [ 177]  Contents.json
+│       │   │   │   │   └── [  63]  Contents.json
+│       │   │   │   ├── [ 14K]  Base.lproj
+│       │   │   │   │   ├── [1.6K]  LaunchScreen.storyboard
+│       │   │   │   │   └── [8.2K]  Main.storyboard
+│       │   │   │   ├── [ 806]  Info.plist
+│       │   │   │   ├── [ 447]  main.m
+│       │   │   │   ├── [ 236]  SceneDelegate.h
+│       │   │   │   ├── [2.1K]  SceneDelegate.m
+│       │   │   │   ├── [ 761]  ViewController.h
+│       │   │   │   └── [9.9K]  ViewController.m
+│       │   │   └── [ 33K]  whisper.objc.xcodeproj
+│       │   │       ├── [ 20K]  project.pbxproj
+│       │   │       └── [8.4K]  project.xcworkspace
+│       │   │           ├── [ 135]  contents.xcworkspacedata
+│       │   │           └── [4.2K]  xcshareddata
+│       │   │               └── [ 238]  IDEWorkspaceChecks.plist
+│       │   ├── [136K]  whisper.swiftui
+│       │   │   ├── [3.2K]  README.md
+│       │   │   ├── [9.2K]  whisper.cpp.swift
+│       │   │   │   └── [5.2K]  LibWhisper.swift
+│       │   │   ├── [ 75K]  whisper.swiftui.demo
+│       │   │   │   ├── [ 11K]  Models
+│       │   │   │   │   ├── [ 402]  Model.swift
+│       │   │   │   │   └── [6.6K]  WhisperState.swift
+│       │   │   │   ├── [ 12K]  Resources
+│       │   │   │   │   ├── [4.0K]  models
+│       │   │   │   │   └── [4.0K]  samples
+│       │   │   │   ├── [ 26K]  Supporting files
+│       │   │   │   │   ├── [ 13K]  Assets.xcassets
+│       │   │   │   │   │   ├── [4.1K]  AccentColor.colorset
+│       │   │   │   │   │   │   └── [ 123]  Contents.json
+│       │   │   │   │   │   ├── [5.0K]  AppIcon.appiconset
+│       │   │   │   │   │   │   └── [ 999]  Contents.json
+│       │   │   │   │   │   └── [  63]  Contents.json
+│       │   │   │   │   ├── [8.1K]  Preview Content
+│       │   │   │   │   │   └── [4.1K]  Preview Assets.xcassets
+│       │   │   │   │   │       └── [  63]  Contents.json
+│       │   │   │   │   └── [ 369]  WhisperCppDemo.entitlements
+│       │   │   │   ├── [ 17K]  UI
+│       │   │   │   │   ├── [9.5K]  ContentView.swift
+│       │   │   │   │   └── [3.3K]  DownloadButton.swift
+│       │   │   │   ├── [5.4K]  Utils
+│       │   │   │   │   ├── [1.0K]  Recorder.swift
+│       │   │   │   │   └── [ 394]  RiffWaveUtils.swift
+│       │   │   │   └── [ 147]  WhisperCppDemoApp.swift
+│       │   │   └── [ 45K]  whisper.swiftui.xcodeproj
+│       │   │       ├── [ 21K]  project.pbxproj
+│       │   │       ├── [8.2K]  project.xcworkspace
+│       │   │       │   └── [4.2K]  xcshareddata
+│       │   │       │       └── [ 238]  IDEWorkspaceChecks.plist
+│       │   │       └── [ 12K]  xcshareddata
+│       │   │           └── [7.8K]  xcschemes
+│       │   │               └── [3.8K]  WhisperCppDemo.xcscheme
+│       │   ├── [ 44K]  whisper.wasm
+│       │   │   ├── [1.2K]  CMakeLists.txt
+│       │   │   ├── [3.8K]  emscripten.cpp
+│       │   │   ├── [ 32K]  index-tmpl.html
+│       │   │   └── [2.8K]  README.md
+│       │   └── [7.1K]  yt-wsp.sh
+│       ├── [ 10M]  ggml
+│       │   ├── [ 16K]  cmake
+│       │   │   ├── [2.0K]  BuildTypes.cmake
+│       │   │   ├── [2.1K]  common.cmake
+│       │   │   ├── [6.8K]  ggml-config.cmake.in
+│       │   │   └── [ 717]  GitVars.cmake
+│       │   ├── [ 19K]  CMakeLists.txt
+│       │   ├── [172K]  include
+│       │   │   ├── [2.9K]  ggml-alloc.h
+│       │   │   ├── [ 20K]  ggml-backend.h
+│       │   │   ├── [ 586]  ggml-blas.h
+│       │   │   ├── [4.4K]  ggml-cann.h
+│       │   │   ├── [1.6K]  ggml-cpp.h
+│       │   │   ├── [7.3K]  ggml-cpu.h
+│       │   │   ├── [1.5K]  ggml-cuda.h
+│       │   │   ├── [ 98K]  ggml.h
+│       │   │   ├── [ 351]  ggml-hexagon.h
+│       │   │   ├── [2.1K]  ggml-metal.h
+│       │   │   ├── [ 581]  ggml-opencl.h
+│       │   │   ├── [ 14K]  ggml-opt.h
+│       │   │   ├── [1.0K]  ggml-rpc.h
+│       │   │   ├── [1.7K]  ggml-sycl.h
+│       │   │   ├── [ 952]  ggml-vulkan.h
+│       │   │   ├── [ 328]  ggml-webgpu.h
+│       │   │   ├── [ 292]  ggml-zdnn.h
+│       │   │   └── [10.0K]  gguf.h
+│       │   └── [9.9M]  src
+│       │       ├── [ 16K]  CMakeLists.txt
+│       │       ├── [ 44K]  ggml-alloc.c
+│       │       ├── [ 85K]  ggml-backend.cpp
+│       │       ├── [ 12K]  ggml-backend-impl.h
+│       │       ├── [ 18K]  ggml-backend-reg.cpp
+│       │       ├── [ 24K]  ggml-blas
+│       │       │   ├── [3.6K]  CMakeLists.txt
+│       │       │   └── [ 17K]  ggml-blas.cpp
+│       │       ├── [234K]  ggml.c
+│       │       ├── [358K]  ggml-cann
+│       │       │   ├── [152K]  aclnn_ops.cpp
+│       │       │   ├── [ 50K]  aclnn_ops.h
+│       │       │   ├── [8.0K]  acl_tensor.cpp
+│       │       │   ├── [ 17K]  acl_tensor.h
+│       │       │   ├── [3.4K]  CMakeLists.txt
+│       │       │   ├── [ 14K]  common.h
+│       │       │   └── [110K]  ggml-cann.cpp
+│       │       ├── [131K]  ggml-common.h
+│       │       ├── [ 738]  ggml.cpp
+│       │       ├── [2.9M]  ggml-cpu
+│       │       │   ├── [119K]  amx
+│       │       │   │   ├── [7.9K]  amx.cpp
+│       │       │   │   ├── [ 202]  amx.h
+│       │       │   │   ├── [2.1K]  common.h
+│       │       │   │   ├── [105K]  mmq.cpp
+│       │       │   │   └── [ 397]  mmq.h
+│       │       │   ├── [1.5M]  arch
+│       │       │   │   ├── [286K]  arm
+│       │       │   │   │   ├── [2.3K]  cpu-feats.cpp
+│       │       │   │   │   ├── [202K]  quants.c
+│       │       │   │   │   └── [ 78K]  repack.cpp
+│       │       │   │   ├── [ 89K]  loongarch
+│       │       │   │   │   └── [ 85K]  quants.c
+│       │       │   │   ├── [102K]  powerpc
+│       │       │   │   │   ├── [2.0K]  cpu-feats.cpp
+│       │       │   │   │   └── [ 96K]  quants.c
+│       │       │   │   ├── [102K]  riscv
+│       │       │   │   │   ├── [ 76K]  quants.c
+│       │       │   │   │   └── [ 21K]  repack.cpp
+│       │       │   │   ├── [ 58K]  s390
+│       │       │   │   │   ├── [1017]  cpu-feats.cpp
+│       │       │   │   │   └── [ 53K]  quants.c
+│       │       │   │   ├── [ 47K]  wasm
+│       │       │   │   │   └── [ 43K]  quants.c
+│       │       │   │   └── [837K]  x86
+│       │       │   │       ├── [ 10K]  cpu-feats.cpp
+│       │       │   │       ├── [179K]  quants.c
+│       │       │   │       └── [643K]  repack.cpp
+│       │       │   ├── [ 12K]  arch-fallback.h
+│       │       │   ├── [6.7K]  binary-ops.cpp
+│       │       │   ├── [ 518]  binary-ops.h
+│       │       │   ├── [6.6K]  cmake
+│       │       │   │   └── [2.6K]  FindSIMD.cmake
+│       │       │   ├── [ 30K]  CMakeLists.txt
+│       │       │   ├── [2.1K]  common.h
+│       │       │   ├── [117K]  ggml-cpu.c
+│       │       │   ├── [ 23K]  ggml-cpu.cpp
+│       │       │   ├── [ 13K]  ggml-cpu-impl.h
+│       │       │   ├── [2.0K]  hbm.cpp
+│       │       │   ├── [ 155]  hbm.h
+│       │       │   ├── [ 95K]  kleidiai
+│       │       │   │   ├── [ 56K]  kernels.cpp
+│       │       │   │   ├── [3.0K]  kernels.h
+│       │       │   │   ├── [ 31K]  kleidiai.cpp
+│       │       │   │   └── [ 323]  kleidiai.h
+│       │       │   ├── [114K]  llamafile
+│       │       │   │   ├── [110K]  sgemm.cpp
+│       │       │   │   └── [ 409]  sgemm.h
+│       │       │   ├── [339K]  ops.cpp
+│       │       │   ├── [8.9K]  ops.h
+│       │       │   ├── [ 39K]  quants.c
+│       │       │   ├── [9.4K]  quants.h
+│       │       │   ├── [ 82K]  repack.cpp
+│       │       │   ├── [7.7K]  repack.h
+│       │       │   ├── [ 48K]  simd-mappings.h
+│       │       │   ├── [220K]  spacemit
+│       │       │   │   ├── [173K]  ime1_kernels.cpp
+│       │       │   │   ├── [ 42K]  ime.cpp
+│       │       │   │   ├── [ 188]  ime.h
+│       │       │   │   └── [1.0K]  ime_kernels.h
+│       │       │   ├── [1.2K]  traits.cpp
+│       │       │   ├── [1.1K]  traits.h
+│       │       │   ├── [ 11K]  unary-ops.cpp
+│       │       │   ├── [2.4K]  unary-ops.h
+│       │       │   ├── [ 22K]  vec.cpp
+│       │       │   └── [ 60K]  vec.h
+│       │       ├── [1.2M]  ggml-cuda
+│       │       │   ├── [2.4K]  acc.cu
+│       │       │   ├── [ 131]  acc.cuh
+│       │       │   ├── [1.9K]  add-id.cu
+│       │       │   ├── [ 101]  add-id.cuh
+│       │       │   ├── [1.2K]  arange.cu
+│       │       │   ├── [ 137]  arange.cuh
+│       │       │   ├── [2.8K]  argmax.cu
+│       │       │   ├── [  98]  argmax.cuh
+│       │       │   ├── [7.7K]  argsort.cu
+│       │       │   ├── [ 102]  argsort.cuh
+│       │       │   ├── [ 21K]  binbcast.cu
+│       │       │   ├── [ 579]  binbcast.cuh
+│       │       │   ├── [1.6K]  clamp.cu
+│       │       │   ├── [ 135]  clamp.cuh
+│       │       │   ├── [6.9K]  CMakeLists.txt
+│       │       │   ├── [ 36K]  common.cuh
+│       │       │   ├── [7.4K]  concat.cu
+│       │       │   ├── [ 137]  concat.cuh
+│       │       │   ├── [6.4K]  conv2d.cu
+│       │       │   ├── [ 149]  conv2d.cuh
+│       │       │   ├── [7.2K]  conv2d-dw.cu
+│       │       │   ├── [ 155]  conv2d-dw.cuh
+│       │       │   ├── [3.7K]  conv2d-transpose.cu
+│       │       │   ├── [ 157]  conv2d-transpose.cuh
+│       │       │   ├── [ 31K]  convert.cu
+│       │       │   ├── [1.5K]  convert.cuh
+│       │       │   ├── [3.2K]  conv-transpose-1d.cu
+│       │       │   ├── [ 158]  conv-transpose-1d.cuh
+│       │       │   ├── [2.0K]  count-equal.cu
+│       │       │   ├── [ 144]  count-equal.cuh
+│       │       │   ├── [2.1K]  cp-async.cuh
+│       │       │   ├── [ 25K]  cpy.cu
+│       │       │   ├── [ 227]  cpy.cuh
+│       │       │   ├── [6.2K]  cpy-utils.cuh
+│       │       │   ├── [5.9K]  cross-entropy-loss.cu
+│       │       │   ├── [ 251]  cross-entropy-loss.cuh
+│       │       │   ├── [2.0K]  dequantize.cuh
+│       │       │   ├── [1.7K]  diagmask.cu
+│       │       │   ├── [ 150]  diagmask.cuh
+│       │       │   ├── [ 35K]  fattn-common.cuh
+│       │       │   ├── [ 13K]  fattn.cu
+│       │       │   ├── [ 185]  fattn.cuh
+│       │       │   ├── [ 62K]  fattn-mma-f16.cuh
+│       │       │   ├── [1.7K]  fattn-tile.cu
+│       │       │   ├── [ 55K]  fattn-tile.cuh
+│       │       │   ├── [ 23K]  fattn-vec.cuh
+│       │       │   ├── [ 28K]  fattn-wmma-f16.cu
+│       │       │   ├── [2.2K]  fattn-wmma-f16.cuh
+│       │       │   ├── [ 12K]  getrows.cu
+│       │       │   ├── [ 622]  getrows.cuh
+│       │       │   ├── [177K]  ggml-cuda.cu
+│       │       │   ├── [3.0K]  gla.cu
+│       │       │   ├── [ 112]  gla.cuh
+│       │       │   ├── [ 12K]  im2col.cu
+│       │       │   ├── [ 218]  im2col.cuh
+│       │       │   ├── [2.7K]  mean.cu
+│       │       │   ├── [  99]  mean.cuh
+│       │       │   ├── [ 32K]  mma.cuh
+│       │       │   ├── [6.6K]  mmf.cu
+│       │       │   ├── [ 37K]  mmf.cuh
+│       │       │   ├── [7.8K]  mmid.cu
+│       │       │   ├── [ 258]  mmid.cuh
+│       │       │   ├── [ 12K]  mmq.cu
+│       │       │   ├── [150K]  mmq.cuh
+│       │       │   ├── [ 36K]  mmvf.cu
+│       │       │   ├── [ 745]  mmvf.cuh
+│       │       │   ├── [ 37K]  mmvq.cu
+│       │       │   ├── [ 701]  mmvq.cuh
+│       │       │   ├── [ 29K]  norm.cu
+│       │       │   ├── [ 838]  norm.cuh
+│       │       │   ├── [2.9K]  opt-step-adamw.cu
+│       │       │   ├── [ 150]  opt-step-adamw.cuh
+│       │       │   ├── [1.7K]  opt-step-sgd.cu
+│       │       │   ├── [ 146]  opt-step-sgd.cuh
+│       │       │   ├── [2.3K]  out-prod.cu
+│       │       │   ├── [ 100]  out-prod.cuh
+│       │       │   ├── [2.9K]  pad.cu
+│       │       │   ├── [ 131]  pad.cuh
+│       │       │   ├── [3.4K]  pad_reflect_1d.cu
+│       │       │   ├── [ 153]  pad_reflect_1d.cuh
+│       │       │   ├── [3.2K]  pool2d.cu
+│       │       │   ├── [ 137]  pool2d.cuh
+│       │       │   ├── [6.5K]  quantize.cu
+│       │       │   ├── [1.1K]  quantize.cuh
+│       │       │   ├── [1.5K]  reduce_rows.cuh
+│       │       │   ├── [2.4K]  roll.cu
+│       │       │   ├── [ 133]  roll.cuh
+│       │       │   ├── [ 25K]  rope.cu
+│       │       │   ├── [ 322]  rope.cuh
+│       │       │   ├── [1.4K]  scale.cu
+│       │       │   ├── [ 135]  scale.cuh
+│       │       │   ├── [1.2K]  set.cu
+│       │       │   ├── [ 145]  set.cuh
+│       │       │   ├── [ 13K]  set-rows.cu
+│       │       │   ├── [ 155]  set-rows.cuh
+│       │       │   ├── [1.3K]  softcap.cu
+│       │       │   ├── [ 158]  softcap.cuh
+│       │       │   ├── [ 11K]  softmax.cu
+│       │       │   ├── [ 228]  softmax.cuh
+│       │       │   ├── [6.8K]  ssm-conv.cu
+│       │       │   ├── [ 103]  ssm-conv.cuh
+│       │       │   ├── [ 18K]  ssm-scan.cu
+│       │       │   ├── [ 103]  ssm-scan.cuh
+│       │       │   ├── [1.3K]  sum.cu
+│       │       │   ├── [ 210]  sum.cuh
+│       │       │   ├── [1.8K]  sumrows.cu
+│       │       │   ├── [ 212]  sumrows.cuh
+│       │       │   ├── [ 29K]  template-instances
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_16-ncols2_1.cu
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_16-ncols2_2.cu
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_16-ncols2_4.cu
+│       │       │   │   ├── [ 159]  fattn-mma-f16-instance-ncols1_1-ncols2_16.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_1-ncols2_8.cu
+│       │       │   │   ├── [ 159]  fattn-mma-f16-instance-ncols1_2-ncols2_16.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_2-ncols2_4.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_2-ncols2_8.cu
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_32-ncols2_1.cu
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_32-ncols2_2.cu
+│       │       │   │   ├── [ 159]  fattn-mma-f16-instance-ncols1_4-ncols2_16.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_4-ncols2_2.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_4-ncols2_4.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_4-ncols2_8.cu
+│       │       │   │   ├── [ 363]  fattn-mma-f16-instance-ncols1_64-ncols2_1.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_8-ncols2_1.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_8-ncols2_2.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_8-ncols2_4.cu
+│       │       │   │   ├── [ 357]  fattn-mma-f16-instance-ncols1_8-ncols2_8.cu
+│       │       │   │   ├── [ 146]  fattn-tile-instance-dkq112-dv112.cu
+│       │       │   │   ├── [ 146]  fattn-tile-instance-dkq128-dv128.cu
+│       │       │   │   ├── [ 146]  fattn-tile-instance-dkq256-dv256.cu
+│       │       │   │   ├── [ 144]  fattn-tile-instance-dkq40-dv40.cu
+│       │       │   │   ├── [ 146]  fattn-tile-instance-dkq576-dv512.cu
+│       │       │   │   ├── [ 144]  fattn-tile-instance-dkq64-dv64.cu
+│       │       │   │   ├── [ 144]  fattn-tile-instance-dkq72-dv72.cu
+│       │       │   │   ├── [ 144]  fattn-tile-instance-dkq80-dv80.cu
+│       │       │   │   ├── [ 144]  fattn-tile-instance-dkq96-dv96.cu
+│       │       │   │   ├── [ 281]  fattn-vec-instance-f16-f16.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-f16-q4_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-f16-q4_1.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-f16-q5_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-f16-q5_1.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-f16-q8_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-q4_0-f16.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_0-q4_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_0-q4_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_0-q5_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_0-q5_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_0-q8_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-q4_1-f16.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_1-q4_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_1-q4_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_1-q5_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_1-q5_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q4_1-q8_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-q5_0-f16.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_0-q4_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_0-q4_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_0-q5_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_0-q5_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_0-q8_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-q5_1-f16.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_1-q4_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_1-q4_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_1-q5_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_1-q5_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q5_1-q8_0.cu
+│       │       │   │   ├── [ 284]  fattn-vec-instance-q8_0-f16.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q8_0-q4_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q8_0-q4_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q8_0-q5_0.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q8_0-q5_1.cu
+│       │       │   │   ├── [ 287]  fattn-vec-instance-q8_0-q8_0.cu
+│       │       │   │   ├── [3.4K]  generate_cu_files.py
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_10.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_11.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_12.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_13.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_14.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_15.cu
+│       │       │   │   ├── [ 126]  mmf-instance-ncols_16.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_1.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_2.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_3.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_4.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_5.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_6.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_7.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_8.cu
+│       │       │   │   ├── [ 125]  mmf-instance-ncols_9.cu
+│       │       │   │   ├── [ 139]  mmq-instance-iq1_s.cu
+│       │       │   │   ├── [ 139]  mmq-instance-iq2_s.cu
+│       │       │   │   ├── [ 140]  mmq-instance-iq2_xs.cu
+│       │       │   │   ├── [ 141]  mmq-instance-iq2_xxs.cu
+│       │       │   │   ├── [ 139]  mmq-instance-iq3_s.cu
+│       │       │   │   ├── [ 141]  mmq-instance-iq3_xxs.cu
+│       │       │   │   ├── [ 140]  mmq-instance-iq4_nl.cu
+│       │       │   │   ├── [ 140]  mmq-instance-iq4_xs.cu
+│       │       │   │   ├── [ 139]  mmq-instance-mxfp4.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q2_k.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q3_k.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q4_0.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q4_1.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q4_k.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q5_0.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q5_1.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q5_k.cu
+│       │       │   │   ├── [ 138]  mmq-instance-q6_k.cu
+│       │       │   │   └── [ 138]  mmq-instance-q8_0.cu
+│       │       │   ├── [ 12K]  topk-moe.cu
+│       │       │   ├── [ 785]  topk-moe.cuh
+│       │       │   ├── [1.8K]  tsembd.cu
+│       │       │   ├── [ 161]  tsembd.cuh
+│       │       │   ├── [ 18K]  unary.cu
+│       │       │   ├── [4.0K]  unary.cuh
+│       │       │   ├── [ 10K]  upscale.cu
+│       │       │   ├── [ 139]  upscale.cuh
+│       │       │   ├── [ 42K]  vecdotq.cuh
+│       │       │   ├── [ 21K]  vendors
+│       │       │   │   ├── [ 570]  cuda.h
+│       │       │   │   ├── [ 11K]  hip.h
+│       │       │   │   └── [6.2K]  musa.h
+│       │       │   ├── [6.9K]  wkv.cu
+│       │       │   └── [ 218]  wkv.cuh
+│       │       ├── [476K]  ggml-hexagon
+│       │       │   ├── [2.5K]  CMakeLists.txt
+│       │       │   ├── [138K]  ggml-hexagon.cpp
+│       │       │   ├── [308K]  htp
+│       │       │   │   ├── [ 18K]  act-ops.c
+│       │       │   │   ├── [ 14K]  binary-ops.c
+│       │       │   │   ├── [ 897]  CMakeLists.txt
+│       │       │   │   ├── [5.4K]  cmake-toolchain.cmake
+│       │       │   │   ├── [ 803]  htp-ctx.h
+│       │       │   │   ├── [1.5K]  htp-dma.c
+│       │       │   │   ├── [3.4K]  htp-dma.h
+│       │       │   │   ├── [ 345]  htp_iface.idl
+│       │       │   │   ├── [4.5K]  htp-msg.h
+│       │       │   │   ├── [1.8K]  htp-ops.h
+│       │       │   │   ├── [2.7K]  hvx-exp.c
+│       │       │   │   ├── [2.1K]  hvx-inverse.c
+│       │       │   │   ├── [1.2K]  hvx-sigmoid.c
+│       │       │   │   ├── [ 33K]  hvx-utils.c
+│       │       │   │   ├── [ 35K]  hvx-utils.h
+│       │       │   │   ├── [ 27K]  main.c
+│       │       │   │   ├── [ 99K]  matmul-ops.c
+│       │       │   │   ├── [4.4K]  ops-utils.h
+│       │       │   │   ├── [ 15K]  rope-ops.c
+│       │       │   │   ├── [ 15K]  softmax-ops.c
+│       │       │   │   ├── [9.0K]  unary-ops.c
+│       │       │   │   ├── [8.4K]  worker-pool.c
+│       │       │   │   └── [2.1K]  worker-pool.h
+│       │       │   ├── [ 16K]  htp-utils.c
+│       │       │   └── [6.7K]  htp-utils.h
+│       │       ├── [8.1K]  ggml-hip
+│       │       │   └── [4.1K]  CMakeLists.txt
+│       │       ├── [ 23K]  ggml-impl.h
+│       │       ├── [733K]  ggml-metal
+│       │       │   ├── [5.6K]  CMakeLists.txt
+│       │       │   ├── [ 13K]  ggml-metal-common.cpp
+│       │       │   ├── [1.7K]  ggml-metal-common.h
+│       │       │   ├── [1.0K]  ggml-metal-context.h
+│       │       │   ├── [ 21K]  ggml-metal-context.m
+│       │       │   ├── [ 25K]  ggml-metal.cpp
+│       │       │   ├── [ 49K]  ggml-metal-device.cpp
+│       │       │   ├── [ 13K]  ggml-metal-device.h
+│       │       │   ├── [ 54K]  ggml-metal-device.m
+│       │       │   ├── [ 16K]  ggml-metal-impl.h
+│       │       │   ├── [395K]  ggml-metal.metal
+│       │       │   ├── [130K]  ggml-metal-ops.cpp
+│       │       │   └── [3.9K]  ggml-metal-ops.h
+│       │       ├── [ 12K]  ggml-musa
+│       │       │   ├── [4.2K]  CMakeLists.txt
+│       │       │   ├── [3.7K]  mudnn.cu
+│       │       │   └── [ 333]  mudnn.cuh
+│       │       ├── [788K]  ggml-opencl
+│       │       │   ├── [3.3K]  CMakeLists.txt
+│       │       │   ├── [394K]  ggml-opencl.cpp
+│       │       │   └── [387K]  kernels
+│       │       │       ├── [5.0K]  add.cl
+│       │       │       ├── [1.4K]  add_id.cl
+│       │       │       ├── [2.7K]  argsort.cl
+│       │       │       ├── [ 649]  clamp.cl
+│       │       │       ├── [4.3K]  concat.cl
+│       │       │       ├── [6.8K]  conv2d.cl
+│       │       │       ├── [6.5K]  conv2d_f16_f32.cl
+│       │       │       ├── [5.0K]  cpy.cl
+│       │       │       ├── [8.0K]  cvt.cl
+│       │       │       ├── [1.6K]  diag_mask_inf.cl
+│       │       │       ├── [3.7K]  div.cl
+│       │       │       ├── [ 477]  embed_kernel.py
+│       │       │       ├── [ 14K]  flash_attn_f16.cl
+│       │       │       ├── [ 14K]  flash_attn_f32.cl
+│       │       │       ├── [ 14K]  flash_attn_f32_f16.cl
+│       │       │       ├── [2.5K]  gelu.cl
+│       │       │       ├── [6.2K]  gemm_moe_mxfp4_f32.cl
+│       │       │       ├── [5.8K]  gemv_moe_mxfp4_f32.cl
+│       │       │       ├── [ 16K]  gemv_noshuffle.cl
+│       │       │       ├── [ 16K]  gemv_noshuffle_general.cl
+│       │       │       ├── [5.2K]  get_rows.cl
+│       │       │       ├── [ 12K]  glu.cl
+│       │       │       ├── [3.4K]  group_norm.cl
+│       │       │       ├── [1.3K]  im2col_f16.cl
+│       │       │       ├── [1.3K]  im2col_f32.cl
+│       │       │       ├── [4.0K]  mul.cl
+│       │       │       ├── [6.0K]  mul_mat_Ab_Bi_8x4.cl
+│       │       │       ├── [4.5K]  mul_mat_f16_f32.cl
+│       │       │       ├── [ 11K]  mul_mm_f16_f32_kq_kqv.cl
+│       │       │       ├── [4.7K]  mul_mm_f16_f32_l4_lm.cl
+│       │       │       ├── [4.7K]  mul_mm_f32_f32_l4_lm.cl
+│       │       │       ├── [4.9K]  mul_mm_q8_0_f32_l4_lm.cl
+│       │       │       ├── [3.5K]  mul_mv_f16_f16.cl
+│       │       │       ├── [2.9K]  mul_mv_f16_f32_1row.cl
+│       │       │       ├── [3.5K]  mul_mv_f16_f32.cl
+│       │       │       ├── [2.5K]  mul_mv_f16_f32_l4.cl
+│       │       │       ├── [3.5K]  mul_mv_f32_f32.cl
+│       │       │       ├── [5.6K]  mul_mv_id_mxfp4_f32.cl
+│       │       │       ├── [5.7K]  mul_mv_id_mxfp4_f32_flat.cl
+│       │       │       ├── [8.4K]  mul_mv_id_q4_0_f32_8x_flat.cl
+│       │       │       ├── [3.9K]  mul_mv_id_q8_0_f32.cl
+│       │       │       ├── [6.5K]  mul_mv_id_q8_0_f32_flat.cl
+│       │       │       ├── [4.5K]  mul_mv_mxfp4_f32.cl
+│       │       │       ├── [5.3K]  mul_mv_mxfp4_f32_flat.cl
+│       │       │       ├── [ 10K]  mul_mv_q4_0_f32_1d_16x_flat.cl
+│       │       │       ├── [8.1K]  mul_mv_q4_0_f32_1d_8x_flat.cl
+│       │       │       ├── [8.1K]  mul_mv_q4_0_f32_8x_flat.cl
+│       │       │       ├── [6.2K]  mul_mv_q4_0_f32.cl
+│       │       │       ├── [7.2K]  mul_mv_q4_0_f32_v.cl
+│       │       │       ├── [7.1K]  mul_mv_q6_k.cl
+│       │       │       ├── [3.6K]  mul_mv_q8_0_f32.cl
+│       │       │       ├── [5.9K]  mul_mv_q8_0_f32_flat.cl
+│       │       │       ├── [5.5K]  norm.cl
+│       │       │       ├── [1.4K]  pad.cl
+│       │       │       ├── [ 529]  relu.cl
+│       │       │       ├── [1.5K]  repeat.cl
+│       │       │       ├── [5.6K]  rms_norm.cl
+│       │       │       ├── [ 24K]  rope.cl
+│       │       │       ├── [ 578]  scale.cl
+│       │       │       ├── [5.6K]  set_rows.cl
+│       │       │       ├── [ 876]  sigmoid.cl
+│       │       │       ├── [ 897]  silu.cl
+│       │       │       ├── [3.1K]  softmax_4_f16.cl
+│       │       │       ├── [3.1K]  softmax_4_f32.cl
+│       │       │       ├── [3.1K]  softmax_f16.cl
+│       │       │       ├── [3.1K]  softmax_f32.cl
+│       │       │       ├── [3.7K]  sub.cl
+│       │       │       ├── [1022]  sum_rows.cl
+│       │       │       ├── [2.7K]  tanh.cl
+│       │       │       ├── [4.0K]  transpose.cl
+│       │       │       ├── [1.4K]  tsembd.cl
+│       │       │       └── [3.7K]  upscale.cl
+│       │       ├── [ 41K]  ggml-opt.cpp
+│       │       ├── [212K]  ggml-quants.c
+│       │       ├── [8.5K]  ggml-quants.h
+│       │       ├── [ 77K]  ggml-rpc
+│       │       │   ├── [ 206]  CMakeLists.txt
+│       │       │   └── [ 73K]  ggml-rpc.cpp
+│       │       ├── [927K]  ggml-sycl
+│       │       │   ├── [ 999]  backend.hpp
+│       │       │   ├── [ 14K]  binbcast.cpp
+│       │       │   ├── [ 952]  binbcast.hpp
+│       │       │   ├── [7.9K]  CMakeLists.txt
+│       │       │   ├── [2.6K]  common.cpp
+│       │       │   ├── [ 20K]  common.hpp
+│       │       │   ├── [8.2K]  concat.cpp
+│       │       │   ├── [ 493]  concat.hpp
+│       │       │   ├── [3.3K]  conv.cpp
+│       │       │   ├── [ 26K]  convert.cpp
+│       │       │   ├── [1.1K]  convert.hpp
+│       │       │   ├── [ 498]  conv.hpp
+│       │       │   ├── [2.5K]  count-equal.cpp
+│       │       │   ├── [ 248]  count-equal.hpp
+│       │       │   ├── [ 35K]  cpy.cpp
+│       │       │   ├── [6.1K]  cpy.hpp
+│       │       │   ├── [ 28K]  dequantize.hpp
+│       │       │   ├── [ 47K]  dmmv.cpp
+│       │       │   ├── [ 808]  dmmv.hpp
+│       │       │   ├── [123K]  dpct
+│       │       │   │   └── [119K]  helper.hpp
+│       │       │   ├── [ 43K]  element_wise.cpp
+│       │       │   ├── [3.2K]  element_wise.hpp
+│       │       │   ├── [3.1K]  gemm.hpp
+│       │       │   ├── [8.7K]  getrows.cpp
+│       │       │   ├── [ 498]  getrows.hpp
+│       │       │   ├── [191K]  ggml-sycl.cpp
+│       │       │   ├── [4.3K]  gla.cpp
+│       │       │   ├── [ 195]  gla.hpp
+│       │       │   ├── [6.3K]  im2col.cpp
+│       │       │   ├── [ 502]  im2col.hpp
+│       │       │   ├── [117K]  mmq.cpp
+│       │       │   ├── [ 819]  mmq.hpp
+│       │       │   ├── [ 46K]  mmvq.cpp
+│       │       │   ├── [ 799]  mmvq.hpp
+│       │       │   ├── [ 26K]  norm.cpp
+│       │       │   ├── [ 806]  norm.hpp
+│       │       │   ├── [1.7K]  outprod.cpp
+│       │       │   ├── [ 197]  outprod.hpp
+│       │       │   ├── [3.8K]  pad.cpp
+│       │       │   ├── [ 588]  pad.hpp
+│       │       │   ├── [2.4K]  pad_reflect_1d.cpp
+│       │       │   ├── [ 222]  pad_reflect_1d.hpp
+│       │       │   ├── [2.2K]  presets.hpp
+│       │       │   ├── [5.7K]  quantize.hpp
+│       │       │   ├── [4.1K]  quants.hpp
+│       │       │   ├── [2.7K]  repeat_back.cpp
+│       │       │   ├── [ 213]  repeat_back.hpp
+│       │       │   ├── [3.2K]  roll.cpp
+│       │       │   ├── [ 482]  roll.hpp
+│       │       │   ├── [ 22K]  rope.cpp
+│       │       │   ├── [ 482]  rope.hpp
+│       │       │   ├── [2.8K]  set.cpp
+│       │       │   ├── [ 130]  set.hpp
+│       │       │   ├── [ 10K]  set_rows.cpp
+│       │       │   ├── [ 200]  set_rows.hpp
+│       │       │   ├── [ 14K]  softmax.cpp
+│       │       │   ├── [ 622]  softmax.hpp
+│       │       │   ├── [3.9K]  ssm_conv.cpp
+│       │       │   ├── [ 114]  ssm_conv.hpp
+│       │       │   ├── [ 369]  sycl_hw.cpp
+│       │       │   ├── [ 440]  sycl_hw.hpp
+│       │       │   ├── [2.6K]  tsembd.cpp
+│       │       │   ├── [ 506]  tsembd.hpp
+│       │       │   ├── [ 46K]  vecdotq.hpp
+│       │       │   ├── [ 10K]  wkv.cpp
+│       │       │   └── [ 268]  wkv.hpp
+│       │       ├── [ 250]  ggml-threading.cpp
+│       │       ├── [ 198]  ggml-threading.h
+│       │       ├── [1.3M]  ggml-vulkan
+│       │       │   ├── [4.6K]  cmake
+│       │       │   │   └── [ 597]  host-toolchain.cmake.in
+│       │       │   ├── [8.5K]  CMakeLists.txt
+│       │       │   ├── [726K]  ggml-vulkan.cpp
+│       │       │   └── [628K]  vulkan-shaders
+│       │       │       ├── [ 525]  abs.comp
+│       │       │       ├── [ 946]  acc.comp
+│       │       │       ├── [2.0K]  add.comp
+│       │       │       ├── [1.0K]  add_id.comp
+│       │       │       ├── [1.4K]  argmax.comp
+│       │       │       ├── [2.4K]  argsort.comp
+│       │       │       ├── [ 427]  clamp.comp
+│       │       │       ├── [1.1K]  CMakeLists.txt
+│       │       │       ├── [1.5K]  concat.comp
+│       │       │       ├── [1.5K]  contig_copy.comp
+│       │       │       ├── [3.1K]  conv2d_dw.comp
+│       │       │       ├── [ 13K]  conv2d_mm.comp
+│       │       │       ├── [3.0K]  conv_transpose_1d.comp
+│       │       │       ├── [ 619]  copy.comp
+│       │       │       ├── [1.4K]  copy_from_quant.comp
+│       │       │       ├── [7.8K]  copy_to_quant.comp
+│       │       │       ├── [ 374]  cos.comp
+│       │       │       ├── [ 796]  count_equal.comp
+│       │       │       ├── [ 442]  dequant_f32.comp
+│       │       │       ├── [ 24K]  dequant_funcs_cm2.glsl
+│       │       │       ├── [ 25K]  dequant_funcs.glsl
+│       │       │       ├── [ 249]  dequant_head.glsl
+│       │       │       ├── [1.5K]  dequant_iq1_m.comp
+│       │       │       ├── [1.1K]  dequant_iq1_s.comp
+│       │       │       ├── [1.9K]  dequant_iq2_s.comp
+│       │       │       ├── [1.8K]  dequant_iq2_xs.comp
+│       │       │       ├── [2.0K]  dequant_iq2_xxs.comp
+│       │       │       ├── [1.5K]  dequant_iq3_s.comp
+│       │       │       ├── [2.1K]  dequant_iq3_xxs.comp
+│       │       │       ├── [ 909]  dequant_iq4_nl.comp
+│       │       │       ├── [1.1K]  dequant_iq4_xs.comp
+│       │       │       ├── [ 941]  dequant_mxfp4.comp
+│       │       │       ├── [1.4K]  dequant_q2_k.comp
+│       │       │       ├── [1.7K]  dequant_q3_k.comp
+│       │       │       ├── [ 861]  dequant_q4_0.comp
+│       │       │       ├── [ 892]  dequant_q4_1.comp
+│       │       │       ├── [2.6K]  dequant_q4_k.comp
+│       │       │       ├── [1.0K]  dequant_q5_0.comp
+│       │       │       ├── [1.0K]  dequant_q5_1.comp
+│       │       │       ├── [3.1K]  dequant_q5_k.comp
+│       │       │       ├── [1.4K]  dequant_q6_k.comp
+│       │       │       ├── [ 839]  dequant_q8_0.comp
+│       │       │       ├── [ 799]  diag_mask_inf.comp
+│       │       │       ├── [ 776]  div.comp
+│       │       │       ├── [ 544]  exp.comp
+│       │       │       ├── [4.3K]  feature-tests
+│       │       │       │   ├── [  68]  bfloat16.comp
+│       │       │       │   ├── [  78]  coopmat2.comp
+│       │       │       │   ├── [  78]  coopmat.comp
+│       │       │       │   └── [  79]  integer_dot.comp
+│       │       │       ├── [6.9K]  flash_attn_base.glsl
+│       │       │       ├── [ 17K]  flash_attn_cm1.comp
+│       │       │       ├── [ 14K]  flash_attn_cm2.comp
+│       │       │       ├── [ 14K]  flash_attn.comp
+│       │       │       ├── [3.1K]  flash_attn_split_k_reduce.comp
+│       │       │       ├── [ 327]  geglu.comp
+│       │       │       ├── [ 882]  geglu_erf.comp
+│       │       │       ├── [ 200]  geglu_quick.comp
+│       │       │       ├── [ 767]  gelu.comp
+│       │       │       ├── [1.3K]  gelu_erf.comp
+│       │       │       ├── [ 631]  gelu_quick.comp
+│       │       │       ├── [2.0K]  generic_binary_head.glsl
+│       │       │       ├── [ 160]  generic_head.glsl
+│       │       │       ├── [3.0K]  generic_unary_head.glsl
+│       │       │       ├── [1.2K]  get_rows.comp
+│       │       │       ├── [1.5K]  get_rows_quant.comp
+│       │       │       ├── [ 457]  glu_head.glsl
+│       │       │       ├── [ 859]  glu_main.glsl
+│       │       │       ├── [1.7K]  group_norm.comp
+│       │       │       ├── [ 581]  hardsigmoid.comp
+│       │       │       ├── [ 585]  hardswish.comp
+│       │       │       ├── [3.6K]  im2col_3d.comp
+│       │       │       ├── [2.7K]  im2col.comp
+│       │       │       ├── [1.2K]  l2_norm.comp
+│       │       │       ├── [ 586]  leaky_relu.comp
+│       │       │       ├── [ 374]  log.comp
+│       │       │       ├── [ 776]  mul.comp
+│       │       │       ├── [1.3K]  mul_mat_split_k_reduce.comp
+│       │       │       ├── [7.9K]  mul_mat_vec_base.glsl
+│       │       │       ├── [5.3K]  mul_mat_vec.comp
+│       │       │       ├── [ 968]  mul_mat_vec_iface.glsl
+│       │       │       ├── [3.2K]  mul_mat_vec_iq1_m.comp
+│       │       │       ├── [3.0K]  mul_mat_vec_iq1_s.comp
+│       │       │       ├── [3.9K]  mul_mat_vec_iq2_s.comp
+│       │       │       ├── [3.6K]  mul_mat_vec_iq2_xs.comp
+│       │       │       ├── [3.7K]  mul_mat_vec_iq2_xxs.comp
+│       │       │       ├── [3.8K]  mul_mat_vec_iq3_s.comp
+│       │       │       ├── [3.8K]  mul_mat_vec_iq3_xxs.comp
+│       │       │       ├── [3.6K]  mul_mat_vec_nc.comp
+│       │       │       ├── [4.5K]  mul_mat_vec_p021.comp
+│       │       │       ├── [6.2K]  mul_mat_vec_q2_k.comp
+│       │       │       ├── [6.4K]  mul_mat_vec_q3_k.comp
+│       │       │       ├── [6.4K]  mul_mat_vec_q4_k.comp
+│       │       │       ├── [7.7K]  mul_mat_vec_q5_k.comp
+│       │       │       ├── [5.6K]  mul_mat_vec_q6_k.comp
+│       │       │       ├── [4.4K]  mul_mat_vecq.comp
+│       │       │       ├── [ 25K]  mul_mm_cm2.comp
+│       │       │       ├── [ 17K]  mul_mm.comp
+│       │       │       ├── [ 30K]  mul_mm_funcs.glsl
+│       │       │       ├── [2.0K]  mul_mm_id_funcs.glsl
+│       │       │       ├── [9.1K]  mul_mmq.comp
+│       │       │       ├── [ 21K]  mul_mmq_funcs.glsl
+│       │       │       ├── [1.5K]  mul_mmq_shmem_types.glsl
+│       │       │       ├── [7.2K]  multi_add.comp
+│       │       │       ├── [ 520]  neg.comp
+│       │       │       ├── [1.3K]  norm.comp
+│       │       │       ├── [1.2K]  opt_step_adamw.comp
+│       │       │       ├── [ 612]  opt_step_sgd.comp
+│       │       │       ├── [1.7K]  pad.comp
+│       │       │       ├── [1.7K]  pool2d.comp
+│       │       │       ├── [3.0K]  quantize_q8_1.comp
+│       │       │       ├── [ 126]  reglu.comp
+│       │       │       ├── [ 528]  relu.comp
+│       │       │       ├── [1.2K]  repeat_back.comp
+│       │       │       ├── [ 809]  repeat.comp
+│       │       │       ├── [1.8K]  rms_norm_back.comp
+│       │       │       ├── [4.7K]  rms_norm.comp
+│       │       │       ├── [2.2K]  rms_norm_partials.comp
+│       │       │       ├── [1.4K]  roll.comp
+│       │       │       ├── [7.4K]  rope_funcs.glsl
+│       │       │       ├── [ 607]  rope_head.glsl
+│       │       │       ├── [ 265]  rope_multi.comp
+│       │       │       ├── [ 264]  rope_neox.comp
+│       │       │       ├── [ 264]  rope_norm.comp
+│       │       │       ├── [ 498]  rope_params.glsl
+│       │       │       ├── [ 266]  rope_vision.comp
+│       │       │       ├── [ 154]  rte.glsl
+│       │       │       ├── [ 625]  scale.comp
+│       │       │       ├── [ 541]  sigmoid.comp
+│       │       │       ├── [ 761]  silu_back.comp
+│       │       │       ├── [ 565]  silu.comp
+│       │       │       ├── [ 374]  sin.comp
+│       │       │       ├── [1.5K]  soft_max_back.comp
+│       │       │       ├── [5.2K]  soft_max.comp
+│       │       │       ├── [ 375]  sqrt.comp
+│       │       │       ├── [ 375]  square.comp
+│       │       │       ├── [1.2K]  ssm_conv.comp
+│       │       │       ├── [4.9K]  ssm_scan.comp
+│       │       │       ├── [ 826]  sub.comp
+│       │       │       ├── [1.9K]  sum_rows.comp
+│       │       │       ├── [ 134]  swiglu.comp
+│       │       │       ├── [ 288]  swiglu_oai.comp
+│       │       │       ├── [ 544]  tanh.comp
+│       │       │       ├── [1.0K]  timestep_embedding.comp
+│       │       │       ├── [5.1K]  topk_moe.comp
+│       │       │       ├── [ 94K]  types.glsl
+│       │       │       ├── [4.2K]  upscale.comp
+│       │       │       ├── [ 752]  utils.glsl
+│       │       │       ├── [ 56K]  vulkan-shaders-gen.cpp
+│       │       │       ├── [2.7K]  wkv6.comp
+│       │       │       └── [2.9K]  wkv7.comp
+│       │       ├── [343K]  ggml-webgpu
+│       │       │   ├── [2.1K]  CMakeLists.txt
+│       │       │   ├── [133K]  ggml-webgpu.cpp
+│       │       │   └── [204K]  wgsl-shaders
+│       │       │       ├── [1.1K]  binary_head.tmpl
+│       │       │       ├── [3.0K]  bin_op.tmpl.wgsl
+│       │       │       ├── [ 70K]  common_decls.tmpl
+│       │       │       ├── [2.2K]  cpy.tmpl.wgsl
+│       │       │       ├── [5.0K]  embed_wgsl.py
+│       │       │       ├── [ 28K]  get_rows.tmpl.wgsl
+│       │       │       ├── [6.5K]  glu.tmpl.wgsl
+│       │       │       ├── [1.3K]  memset.wgsl
+│       │       │       ├── [3.7K]  mul_mat_decls.tmpl
+│       │       │       ├── [7.3K]  mul_mat_reg_tile.tmpl.wgsl
+│       │       │       ├── [ 10K]  mul_mat_subgroup_matrix.tmpl.wgsl
+│       │       │       ├── [ 30K]  mul_mat.tmpl.wgsl
+│       │       │       ├── [8.1K]  mul_mat_vec.tmpl.wgsl
+│       │       │       ├── [2.5K]  rms_norm.wgsl
+│       │       │       ├── [7.4K]  rope.tmpl.wgsl
+│       │       │       ├── [1.7K]  scale.tmpl.wgsl
+│       │       │       ├── [2.5K]  set_rows.tmpl.wgsl
+│       │       │       ├── [2.0K]  set_rows.wgsl
+│       │       │       └── [7.9K]  soft_max.tmpl.wgsl
+│       │       ├── [ 34K]  ggml-zdnn
+│       │       │   ├── [1.2K]  CMakeLists.txt
+│       │       │   ├── [1.2K]  common.hpp
+│       │       │   ├── [ 20K]  ggml-zdnn.cpp
+│       │       │   ├── [3.6K]  mmf.cpp
+│       │       │   ├── [ 307]  mmf.hpp
+│       │       │   ├── [2.8K]  utils.cpp
+│       │       │   └── [ 680]  utils.hpp
+│       │       └── [ 45K]  gguf.cpp
+│       ├── [7.5K]  grammars
+│       │   ├── [2.3K]  assistant.gbnf
+│       │   ├── [ 941]  chess.gbnf
+│       │   └── [ 339]  colors.gbnf
+│       ├── [ 38K]  include
+│       │   └── [ 34K]  whisper.h
+│       ├── [1.1K]  LICENSE
+│       ├── [2.1K]  Makefile
+│       ├── [5.9M]  models
+│       │   ├── [4.8K]  convert-h5-to-coreml.py
+│       │   ├── [7.7K]  convert-h5-to-ggml.py
+│       │   ├── [ 10K]  convert-pt-to-ggml.py
+│       │   ├── [7.1K]  convert-silero-vad-to-ggml.py
+│       │   ├── [ 13K]  convert-whisper-to-coreml.py
+│       │   ├── [2.0K]  convert-whisper-to-openvino.py
+│       │   ├── [2.9K]  download-coreml-model.sh
+│       │   ├── [3.0K]  download-ggml-model.cmd
+│       │   ├── [3.7K]  download-ggml-model.sh
+│       │   ├── [2.4K]  download-vad-model.cmd
+│       │   ├── [2.9K]  download-vad-model.sh
+│       │   ├── [562K]  for-tests-ggml-base.bin
+│       │   ├── [573K]  for-tests-ggml-base.en.bin
+│       │   ├── [562K]  for-tests-ggml-large.bin
+│       │   ├── [562K]  for-tests-ggml-medium.bin
+│       │   ├── [573K]  for-tests-ggml-medium.en.bin
+│       │   ├── [562K]  for-tests-ggml-small.bin
+│       │   ├── [573K]  for-tests-ggml-small.en.bin
+│       │   ├── [562K]  for-tests-ggml-tiny.bin
+│       │   ├── [573K]  for-tests-ggml-tiny.en.bin
+│       │   ├── [864K]  for-tests-silero-v5.1.2-ggml.bin
+│       │   ├── [1.5K]  generate-coreml-interface.sh
+│       │   ├── [1.3K]  generate-coreml-model.sh
+│       │   ├── [3.5K]  ggml_to_pt.py
+│       │   ├── [5.6K]  README.md
+│       │   ├── [  50]  requirements-coreml.txt
+│       │   └── [  41]  requirements-openvino.txt
+│       ├── [ 35K]  README.md
+│       ├── [6.4K]  README_sycl.md
+│       ├── [423K]  samples
+│       │   ├── [ 75K]  jfk.mp3
+│       │   ├── [344K]  jfk.wav
+│       │   └── [ 367]  README.md
+│       ├── [176K]  scripts
+│       │   ├── [127K]  apple
+│       │   │   ├── [ 148]  validate-apps.sh
+│       │   │   ├── [ 31K]  validate-ios.sh
+│       │   │   ├── [ 30K]  validate-macos.sh
+│       │   │   ├── [ 31K]  validate-tvos.sh
+│       │   │   └── [ 31K]  validate-visionos.sh
+│       │   ├── [ 22K]  bench-all-gg.txt
+│       │   ├── [3.7K]  bench-all.sh
+│       │   ├── [6.7K]  bench.py
+│       │   ├── [2.1K]  bench-wts.sh
+│       │   ├── [ 725]  build-info.sh
+│       │   ├── [ 328]  convert-all.sh
+│       │   ├── [1.1K]  deploy-wasm.sh
+│       │   ├── [ 345]  gen-authors.sh
+│       │   ├── [1.3K]  get-flags.mk
+│       │   ├── [ 879]  quantize-all.sh
+│       │   ├── [ 134]  sha-all.sh
+│       │   ├── [4.8K]  sync-ggml-am.sh
+│       │   ├── [  41]  sync-ggml.last
+│       │   ├── [ 760]  sync-ggml.sh
+│       │   └── [ 593]  sync-llama.sh
+│       ├── [393K]  src
+│       │   ├── [3.8K]  CMakeLists.txt
+│       │   ├── [ 45K]  coreml
+│       │   │   ├── [ 467]  whisper-compat.h
+│       │   │   ├── [1.2K]  whisper-compat.m
+│       │   │   ├── [8.6K]  whisper-decoder-impl.h
+│       │   │   ├── [ 10K]  whisper-decoder-impl.m
+│       │   │   ├── [ 675]  whisper-encoder.h
+│       │   │   ├── [8.4K]  whisper-encoder-impl.h
+│       │   │   ├── [9.7K]  whisper-encoder-impl.m
+│       │   │   └── [2.2K]  whisper-encoder.mm
+│       │   ├── [8.8K]  openvino
+│       │   │   ├── [3.9K]  whisper-openvino-encoder.cpp
+│       │   │   └── [ 876]  whisper-openvino-encoder.h
+│       │   ├── [9.0K]  whisper-arch.h
+│       │   └── [322K]  whisper.cpp
+│       └── [208K]  tests
+│           ├── [4.4K]  CMakeLists.txt
+│           ├── [ 93K]  earnings21
+│           │   ├── [1.9K]  eval.mk
+│           │   ├── [1.9K]  eval.py
+│           │   ├── [ 342]  Makefile
+│           │   ├── [ 83K]  normalizers
+│           │   │   ├── [2.0K]  basic.py
+│           │   │   ├── [ 55K]  english.json
+│           │   │   ├── [ 20K]  english.py
+│           │   │   ├── [ 130]  __init__.py
+│           │   │   └── [1.2K]  LICENSE
+│           │   ├── [1.9K]  README.md
+│           │   └── [ 197]  requirements.txt
+│           ├── [2.1K]  en-0-ref.txt
+│           ├── [2.2K]  en-1-ref.txt
+│           ├── [ 957]  en-2-ref.txt
+│           ├── [1.9K]  es-0-ref.txt
+│           ├── [ 90K]  librispeech
+│           │   ├── [ 998]  eval.mk
+│           │   ├── [1.2K]  eval.py
+│           │   ├── [ 252]  Makefile
+│           │   ├── [ 83K]  normalizers
+│           │   │   ├── [2.0K]  basic.py
+│           │   │   ├── [ 55K]  english.json
+│           │   │   ├── [ 20K]  english.py
+│           │   │   ├── [ 130]  __init__.py
+│           │   │   └── [1.2K]  LICENSE
+│           │   ├── [1.3K]  README.md
+│           │   └── [ 197]  requirements.txt
+│           ├── [3.4K]  run-tests.sh
+│           ├── [  40]  test-c.c
+│           ├── [2.6K]  test-vad.cpp
+│           ├── [1.7K]  test-vad-full.cpp
+│           └── [1.6K]  test-whisper.js
+├── [1.9K]  GPU_SUPPORT.md
+├── [1.5K]  LICENSE
+├── [141M]  models
+│   └── [141M]  ggml-base.bin
+├── [8.8K]  MODELS.md
+├── [8.7K]  package_deb.sh
+├── [8.8K]  packaging
+│   ├── [4.3K]  debian
+│   │   └── [ 332]  control
+│   └── [ 448]  speech-recorder.desktop
+├── [ 13K]  PHASE2_COMPLETION_REPORT.md
+├── [1.7K]  PROJECT_STRUCTURE.txt
+├── [   0]  project_tree.txt
+├── [6.1K]  README_GITHUB.md
+├── [5.7K]  README.md
+├── [4.4K]  RELEASE_CHECKLIST.md
+├── [ 21K]  resources
+│   ├── [6.7K]  icons
+│   │   ├── [1.2K]  app_icon.svg
+│   │   ├── [ 377]  download.svg
+│   │   ├── [ 334]  record_active.svg
+│   │   ├── [ 181]  record_idle.svg
+│   │   ├── [ 446]  settings.svg
+│   │   └── [ 200]  stop.svg
+│   ├── [ 444]  resources.qrc
+│   └── [9.5K]  styles
+│       ├── [4.5K]  dark_theme.qss
+│       └── [1.0K]  light_theme.qss
+├── [ 916]  run.sh
+├── [ 91K]  speech-recorder_1.0.0_amd64.deb
+├── [106K]  src
+│   ├── [3.5K]  AudioRecorder.cpp
+│   ├── [ 956]  AudioRecorder.h
+│   ├── [ 37K]  gui
+│   │   ├── [ 15K]  ModelManager.cpp
+│   │   ├── [1.6K]  ModelManager.h
+│   │   ├── [5.2K]  ModelSelector.cpp
+│   │   ├── [ 911]  ModelSelector.h
+│   │   ├── [9.0K]  SettingsDialog.cpp
+│   │   └── [ 992]  SettingsDialog.h
+│   ├── [1.5K]  main.cpp
+│   ├── [ 22K]  MainWindow.cpp
+│   ├── [2.4K]  MainWindow.h
+│   ├── [9.1K]  transcription
+│   │   ├── [4.3K]  VoskEngine.cpp
+│   │   └── [ 829]  VoskEngine.h
+│   ├── [ 897]  TranscriptionWorker.cpp
+│   ├── [ 600]  TranscriptionWorker.h
+│   ├── [ 21K]  utils
+│   │   ├── [7.6K]  ErrorHandler.cpp
+│   │   ├── [1.0K]  ErrorHandler.h
+│   │   ├── [3.4K]  FileExporter.cpp
+│   │   ├── [ 497]  FileExporter.h
+│   │   ├── [3.0K]  Settings.cpp
+│   │   └── [1.4K]  Settings.h
+│   ├── [3.5K]  WhisperTranscriber.cpp
+│   └── [ 745]  WhisperTranscriber.h
+├── [7.3K]  START_HERE.md
+└── [3.4K]  WINDOWS_BUILD.md
+
+ 179M used in 320 directories, 1678 files

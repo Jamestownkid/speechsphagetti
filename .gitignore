@@ -1,0 +1,11 @@
+build/
+models/
+*.so
+*.a
+*.o
+*_autogen/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.externalNativeBuild/

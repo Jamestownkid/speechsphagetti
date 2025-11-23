@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrow down -->
+  <rect x="28" y="8" width="8" height="32" fill="#3498db"/>
+  <path d="M 32 48 L 16 32 L 24 32 L 24 24 L 40 24 L 40 32 L 48 32 Z" fill="#3498db"/>
+  <!-- Base -->
+  <rect x="12" y="52" width="40" height="4" fill="#3498db"/>
+</svg>
+

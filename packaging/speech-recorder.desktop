@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Speech Recorder
+GenericName=Speech-to-Text Application
+Comment=Record and transcribe speech using Whisper and Vosk
+Icon=speech-recorder
+Exec=speech-recorder
+Terminal=false
+Categories=Audio;AudioVideo;Recorder;Office;Utility;
+Keywords=speech;transcription;recording;whisper;vosk;dictation;
+MimeType=audio/x-wav;audio/mpeg;
+StartupNotify=true
+StartupWMClass=speech-recorder
+X-GNOME-SingleWindow=true

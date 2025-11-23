@@ -1,0 +1,9 @@
+# packaging/debian/control - Phase 2
+Package: speech-recorder
+Version: 1.0.0
+Architecture: amd64
+Maintainer: SparklyLabz <contact@sparklylabz.com>
+Depends: libqt5widgets5, libpulse0
+Description: Offline speech-to-text recorder
+ Professional Linux application for recording and transcribing speech.
+Homepage: https://sparklylabz.com

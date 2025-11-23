@@ -1,0 +1,56 @@
+.
+├── BUILDING.md
+├── build.sh
+├── CHANGELOG.md
+├── CMakeLists.txt
+├── CONTRIBUTING.md
+├── LICENSE
+├── MODELS.md
+├── packaging
+│   ├── debian
+│   │   └── control
+│   └── speech-recorder.desktop
+├── PHASE2_COMPLETION_REPORT.md
+├── PROJECT_STRUCTURE.txt
+├── README.md
+├── resources
+│   ├── icons
+│   │   ├── app_icon.svg
+│   │   ├── download.svg
+│   │   ├── record_active.svg
+│   │   ├── record_idle.svg
+│   │   ├── settings.svg
+│   │   └── stop.svg
+│   ├── resources.qrc
+│   └── styles
+│       ├── dark_theme.qss
+│       └── light_theme.qss
+└── src
+    ├── AudioRecorder.cpp
+    ├── AudioRecorder.h
+    ├── gui
+    │   ├── ModelManager.cpp
+    │   ├── ModelManager.h
+    │   ├── ModelSelector.cpp
+    │   ├── ModelSelector.h
+    │   ├── SettingsDialog.cpp
+    │   └── SettingsDialog.h
+    ├── main.cpp
+    ├── MainWindow.cpp
+    ├── MainWindow.h
+    ├── transcription
+    │   ├── VoskEngine.cpp
+    │   └── VoskEngine.h
+    ├── TranscriptionWorker.cpp
+    ├── TranscriptionWorker.h
+    ├── utils
+    │   ├── ErrorHandler.cpp
+    │   ├── ErrorHandler.h
+    │   ├── FileExporter.cpp
+    │   ├── FileExporter.h
+    │   ├── Settings.cpp
+    │   └── Settings.h
+    ├── WhisperTranscriber.cpp
+    └── WhisperTranscriber.h
+
+9 directories, 44 files

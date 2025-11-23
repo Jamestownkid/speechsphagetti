@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/app_icon.svg</file>
+        <file>icons/record_idle.svg</file>
+        <file>icons/record_active.svg</file>
+        <file>icons/stop.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/download.svg</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>styles/dark_theme.qss</file>
+        <file>styles/light_theme.qss</file>
+    </qresource>
+</RCC>
+
