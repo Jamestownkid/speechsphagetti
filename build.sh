@@ -108,20 +108,29 @@ fi
 # 3. Download default model
 print_info "Checking for Whisper models..."
 
-mkdir -p models
+# Models should be stored in user's data directory where app expects them
+MODEL_DIR="$HOME/.local/share/speech-recorder/models"
+mkdir -p "$MODEL_DIR"
 
-if [ ! -f "models/ggml-base.bin" ]; then
+# Migrate old models from ./models/ to new location if they exist
+if [ -d "models" ] && [ "$(ls -A models 2>/dev/null)" ]; then
+    print_info "Migrating existing models to $MODEL_DIR..."
+    cp -n models/*.bin "$MODEL_DIR/" 2>/dev/null || true
+    print_success "Models migrated"
+fi
+
+if [ ! -f "$MODEL_DIR/ggml-base.bin" ]; then
     print_info "Downloading Whisper Base model (142 MB)..."
     print_warning "This may take a few minutes on slow connections..."
     
     wget --progress=bar:force \
          -c https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin \
-         -O models/ggml-base.bin.tmp
+         -O "$MODEL_DIR/ggml-base.bin.tmp"
     
-    mv models/ggml-base.bin.tmp models/ggml-base.bin
-    print_success "Whisper Base model downloaded"
+    mv "$MODEL_DIR/ggml-base.bin.tmp" "$MODEL_DIR/ggml-base.bin"
+    print_success "Whisper Base model downloaded to $MODEL_DIR"
 else
-    print_success "Whisper Base model already exists"
+    print_success "Whisper Base model already exists at $MODEL_DIR"
 fi
 
 # 4. Create build directory
@@ -181,6 +190,7 @@ else
     echo "  • Vosk transcription: ✗ (not installed)"
 fi
 echo ""
+echo "Models stored in: $HOME/.local/share/speech-recorder/models/"
 echo "Download more models from Tools > Manage Models"
 echo ""
 echo "Visit us at: ${BLUE}https://sparklylabz.com${NC}"
