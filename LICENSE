@@ -19,22 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This project uses third-party libraries:
-
-1. whisper.cpp by Georgi Gerganov (MIT License)
-   https://github.com/ggerganov/whisper.cpp
-
-2. Vosk API by Alpha Cephei (Apache License 2.0)
-   https://github.com/alphacep/vosk-api
-
-3. Qt Framework (LGPL v3)
-   https://www.qt.io/
-
-4. PulseAudio (LGPL v2.1+)
-   https://www.freedesktop.org/wiki/Software/PulseAudio/
-
-Each of these libraries retains its own license terms.
-
